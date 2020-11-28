@@ -33790,6 +33790,23 @@ public:
 public:
 };
 
+struct DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D_StaticFields
+{
+public:
+	// DontDestroyOnLoad DontDestroyOnLoad::instance
+	DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D * ___instance_4;
+
+public:
+	inline static int32_t get_offset_of_instance_4() { return static_cast<int32_t>(offsetof(DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D_StaticFields, ___instance_4)); }
+	inline DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D * get_instance_4() const { return ___instance_4; }
+	inline DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D ** get_address_of_instance_4() { return &___instance_4; }
+	inline void set_instance_4(DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D * value)
+	{
+		___instance_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___instance_4), (void*)value);
+	}
+};
+
 
 // EnemyController
 struct  EnemyController_t357E3ED89EF6EC48EE05136A579DE0B0FABC59BB  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
@@ -48366,7 +48383,11 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2902[2] =
 	BestScoreUpdater_t2CA92EAF10F977D9A805A498D2B082EE58E4E052::get_offset_of_highscore_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2903;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2903 = { sizeof (DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2903 = { sizeof (DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D), -1, sizeof(DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D_StaticFields), 0 };
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2903[1] = 
+{
+	DontDestroyOnLoad_tA639E7371DDCB4CAA1153085E9C678B55128341D_StaticFields::get_offset_of_instance_4(),
+};
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2904;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2904 = { sizeof (EnemyController_t357E3ED89EF6EC48EE05136A579DE0B0FABC59BB), -1, 0, 0 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2904[2] = 
