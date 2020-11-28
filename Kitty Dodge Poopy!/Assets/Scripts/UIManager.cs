@@ -23,10 +23,6 @@ public class UIManager : MonoBehaviour {
         //Checks to make sure Mainlevel is the loaded level
         if (SceneManager.GetActiveScene().name == "MainLevel")
             playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-		//Checks to make sure 2xPoints is the loaded level
-		/*if (SceneManager.GetActiveScene ().name == "2xPoints")
-			playerController = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
-        */
 	}
 
     //Updat is called once per frame
