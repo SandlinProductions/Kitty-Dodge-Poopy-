@@ -6969,6 +6969,22 @@ IL_000a:
 		return L_1;
 	}
 }
+// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_underage()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LocalUser_get_underage_m23ED57ACEE9E1DD5FFE86DC8E780E2514415CBA8 (LocalUser_t1719BEA57FDD71F6C7B280049E94071CD22D985D * __this, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_m_Underage_8();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

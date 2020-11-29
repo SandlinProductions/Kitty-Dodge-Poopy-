@@ -10,8 +10,9 @@ public class UIManager : MonoBehaviour {
     GameObject[] finishObjects;
     PlayerController playerController;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start ()
+    {
         Time.timeScale = 1;
         //gets all objects with tag ShowOnPause
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
