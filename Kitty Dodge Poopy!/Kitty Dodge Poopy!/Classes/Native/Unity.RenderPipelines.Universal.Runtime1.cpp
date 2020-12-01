@@ -4340,8 +4340,6 @@ public:
 	uint32_t ___cullingMask_1;
 	// System.Int32 UnityEngine.Rendering.CoreCameraValues::instanceID
 	int32_t ___instanceID_2;
-	// System.Int32 UnityEngine.Rendering.CoreCameraValues::renderImmediateObjects
-	int32_t ___renderImmediateObjects_3;
 
 public:
 	inline static int32_t get_offset_of_filterMode_0() { return static_cast<int32_t>(offsetof(CoreCameraValues_t971621F868A0A21221BEFCE88E756FFEA310AF94, ___filterMode_0)); }
@@ -4366,14 +4364,6 @@ public:
 	inline void set_instanceID_2(int32_t value)
 	{
 		___instanceID_2 = value;
-	}
-
-	inline static int32_t get_offset_of_renderImmediateObjects_3() { return static_cast<int32_t>(offsetof(CoreCameraValues_t971621F868A0A21221BEFCE88E756FFEA310AF94, ___renderImmediateObjects_3)); }
-	inline int32_t get_renderImmediateObjects_3() const { return ___renderImmediateObjects_3; }
-	inline int32_t* get_address_of_renderImmediateObjects_3() { return &___renderImmediateObjects_3; }
-	inline void set_renderImmediateObjects_3(int32_t value)
-	{
-		___renderImmediateObjects_3 = value;
 	}
 };
 
@@ -15725,7 +15715,7 @@ IL_014b:
 		}
 	}
 	{
-		// offscreenRTWidth = screenWidth / zoom / 2 * 2;   // Make sure it's an even number by / 2 * 2.
+		// offscreenRTWidth = screenWidth / zoom / 2 * 2;   
 		int32_t L_48 = ___screenWidth0;
 		int32_t L_49 = __this->get_zoom_7();
 		__this->set_offscreenRTWidth_9(((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_48/(int32_t)L_49))/(int32_t)2)), (int32_t)2)));
@@ -15741,7 +15731,7 @@ IL_016a:
 		// offscreenRTWidth = refResolutionX;
 		int32_t L_51 = V_1;
 		__this->set_offscreenRTWidth_9(L_51);
-		// offscreenRTHeight = screenHeight / zoom / 2 * 2;   // Make sure it's an even number by / 2 * 2.
+		// offscreenRTHeight = screenHeight / zoom / 2 * 2;   
 		int32_t L_52 = ___screenHeight1;
 		int32_t L_53 = __this->get_zoom_7();
 		__this->set_offscreenRTHeight_10(((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_52/(int32_t)L_53))/(int32_t)2)), (int32_t)2)));
@@ -15768,7 +15758,7 @@ IL_0185:
 	{
 		// useOffscreenRT = true;
 		__this->set_useOffscreenRT_8((bool)1);
-		// offscreenRTWidth = screenWidth / zoom / 2 * 2;        // Make sure it's an even number by / 2 * 2.
+		// offscreenRTWidth = screenWidth / zoom / 2 * 2;        
 		int32_t L_56 = ___screenWidth0;
 		int32_t L_57 = __this->get_zoom_7();
 		__this->set_offscreenRTWidth_9(((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_56/(int32_t)L_57))/(int32_t)2)), (int32_t)2)));
@@ -16921,8 +16911,8 @@ FINALLY_00ed:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(237)
 	{
-		IL2CPP_JUMP_TBL(0xFB, IL_00fb)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xFB, IL_00fb)
 	}
 
 IL_00fb:
@@ -16978,8 +16968,8 @@ FINALLY_0146:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(326)
 	{
-		IL2CPP_JUMP_TBL(0x154, IL_0154)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x154, IL_0154)
 	}
 
 IL_0154:
@@ -17066,8 +17056,8 @@ FINALLY_01c3:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(451)
 	{
-		IL2CPP_JUMP_TBL(0x1D1, IL_01d1)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x1D1, IL_01d1)
 	}
 
 IL_01d1:
@@ -17125,8 +17115,8 @@ FINALLY_0220:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(544)
 	{
-		IL2CPP_JUMP_TBL(0x22E, IL_022e)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x22E, IL_022e)
 	}
 
 IL_022e:
@@ -17184,8 +17174,8 @@ FINALLY_027d:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(637)
 	{
-		IL2CPP_JUMP_TBL(0x28B, IL_028b)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x28B, IL_028b)
 	}
 
 IL_028b:
@@ -17258,8 +17248,8 @@ FINALLY_02f4:
 		} // end finally (depth: 2)
 		IL2CPP_CLEANUP(756)
 		{
-			IL2CPP_JUMP_TBL(0x302, IL_0302)
 			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+			IL2CPP_JUMP_TBL(0x302, IL_0302)
 		}
 
 IL_0302:
@@ -17714,8 +17704,8 @@ FINALLY_05e5:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(1509)
 	{
-		IL2CPP_JUMP_TBL(0x5F3, IL_05f3)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x5F3, IL_05f3)
 	}
 
 IL_05f3:
@@ -19242,7 +19232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostProcessPass_SetupBloom_m4DAC1037722B
 		float L_15 = VirtFuncInvoker0< float >::Invoke(12 /* !0 UnityEngine.Rendering.VolumeParameter`1<System.Single>::get_value() */, L_14);
 		float L_16 = Mathf_GammaToLinearSpace_mD7A738810039778B4592535A1DB5767C4CAD68FB(L_15, /*hidden argument*/NULL);
 		V_4 = L_16;
-		// float thresholdKnee = threshold * 0.5f; // Hardcoded soft knee
+		// float thresholdKnee = threshold * 0.5f; 
 		float L_17 = V_4;
 		V_5 = ((float)il2cpp_codegen_multiply((float)L_17, (float)(0.5f)));
 		// float scatter = Mathf.Lerp(0.05f, 0.95f, m_Bloom.scatter.value);
@@ -20937,7 +20927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PostProcessUtils_ConfigureDithering_m
 
 IL_0013:
 	{
-		// return 0; // Safe guard
+		// return 0; 
 		return 0;
 	}
 
@@ -22677,8 +22667,8 @@ FINALLY_018a:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(394)
 	{
-		IL2CPP_JUMP_TBL(0x198, IL_0198)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x198, IL_0198)
 	}
 
 IL_0198:
@@ -24661,7 +24651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RendererLighting_RenderShadows_mBF3ABE47
 		int32_t L_9 = Light2D_get_blendStyleIndex_m2C3238592536667028223C83A41F9E07F38450AF_inline(L_8, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(RendererLighting_t839680A0F2396F7562FFBB6FC09CB764F0AF13E4_il2cpp_TypeInfo_var);
 		RendererLighting_CreateShadowRenderTexture_mAA4C814D0851386D12BFBDB86592A3F94F3F809B(L_7, L_9, /*hidden argument*/NULL);
-		// cmdBuffer.SetRenderTarget(s_ShadowsRenderTarget.Identifier()); // This isn't efficient if this light doesn't cast shadow.
+		// cmdBuffer.SetRenderTarget(s_ShadowsRenderTarget.Identifier()); 
 		CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * L_10 = ___cmdBuffer0;
 		RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13  L_11 = RenderTargetHandle_Identifier_m71D64BA7E9C19CD4FEB4D2F3EAA4DB91BB9A70A5((RenderTargetHandle_tF1A0604007691ECF29A9F58D2EB48A516B9A9E7C *)(((RendererLighting_t839680A0F2396F7562FFBB6FC09CB764F0AF13E4_StaticFields*)il2cpp_codegen_static_fields_for(RendererLighting_t839680A0F2396F7562FFBB6FC09CB764F0AF13E4_il2cpp_TypeInfo_var))->get_address_of_s_ShadowsRenderTarget_17()), /*hidden argument*/NULL);
 		NullCheck(L_10);
@@ -24671,7 +24661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RendererLighting_RenderShadows_mBF3ABE47
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_13 = Color_get_black_m67E91EB7017FC74D9AB5ADEF6B6929B7EFC9A982(/*hidden argument*/NULL);
 		NullCheck(L_12);
 		CommandBuffer_ClearRenderTarget_mD911CD9DACD86BB1A9734235E6D55AF9BE844CA0(L_12, (bool)1, (bool)1, L_13, /*hidden argument*/NULL);
-		// BoundingSphere lightBounds = light.GetBoundingSphere(); // Gets the local bounding sphere...
+		// BoundingSphere lightBounds = light.GetBoundingSphere(); 
 		Light2D_tB2F9E756DFBD3368D5F2B56465C7D7D0887454EF * L_14 = ___light2;
 		NullCheck(L_14);
 		BoundingSphere_t97CFF9ADC6DC8157DBA993251691A9868DAFF709  L_15 = Light2D_GetBoundingSphere_mACFFA2A884A25423C09F66292F89B167B0AA8546(L_14, /*hidden argument*/NULL);
@@ -25469,8 +25459,8 @@ FINALLY_01d7:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(471)
 	{
-		IL2CPP_JUMP_TBL(0x1E5, IL_01e5)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x1E5, IL_01e5)
 	}
 
 IL_01e5:
@@ -29626,7 +29616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DrawingSettings_t3DA1A01D2B97D79DCF2205DDC936
 		//     mainLightIndex = renderingData.lightData.mainLightIndex,
 		//     enableDynamicBatching = renderingData.supportsDynamicBatching,
 		// 
-		//     // Disable instancing for preview cameras. This is consistent with the built-in forward renderer. Also fixes case 1127324.
+		//     
 		//     enableInstancing = camera.cameraType == CameraType.Preview ? false : true,
 		// };
 		ShaderTagId_t51914C89B8119195DACD234D1A624AAB7A07F795  L_6 = ___shaderTagId0;
@@ -30431,9 +30421,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableRenderer__ctor_m624636DCAAF6A7
 		List_1_tBCF0F141DE9E888F8E876CC61E2D1031229498E0 * L_2 = (List_1_tBCF0F141DE9E888F8E876CC61E2D1031229498E0 *)il2cpp_codegen_object_new(List_1_tBCF0F141DE9E888F8E876CC61E2D1031229498E0_il2cpp_TypeInfo_var);
 		List_1__ctor_m8A46EEBA5CCB854EA9C2B8A549A45D2539791C98(L_2, ((int32_t)10), /*hidden argument*/List_1__ctor_m8A46EEBA5CCB854EA9C2B8A549A45D2539791C98_RuntimeMethod_var);
 		__this->set_m_RendererFeatures_4(L_2);
-		// bool m_FirstTimeCameraColorTargetIsBound = true; // flag used to track when m_CameraColorTarget should be cleared (if necessary), as well as other special actions only performed the first time m_CameraColorTarget is bound as a render target
+		// bool m_FirstTimeCameraColorTargetIsBound = true; 
 		__this->set_m_FirstTimeCameraColorTargetIsBound_7((bool)1);
-		// bool m_FirstTimeCameraDepthTargetIsBound = true; // flag used to track when m_CameraDepthTarget should be cleared (if necessary), the first time m_CameraDepthTarget is bound as a render target
+		// bool m_FirstTimeCameraDepthTargetIsBound = true; 
 		__this->set_m_FirstTimeCameraDepthTargetIsBound_8((bool)1);
 		// public ScriptableRenderer(ScriptableRendererData data)
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
@@ -30509,8 +30499,8 @@ FINALLY_0075:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(117)
 	{
-		IL2CPP_JUMP_TBL(0x83, IL_0083)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x83, IL_0083)
 	}
 
 IL_0083:
@@ -31262,7 +31252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableRenderer_ExecuteRenderPass_mED
 
 IL_007e:
 	{
-		// m_FirstTimeCameraColorTargetIsBound = false; // register that we did clear the camera target the first time it was bound
+		// m_FirstTimeCameraColorTargetIsBound = false; 
 		__this->set_m_FirstTimeCameraColorTargetIsBound_7((bool)0);
 		// firstTimeStereo = true;
 		V_2 = (bool)1;
@@ -31325,7 +31315,7 @@ IL_00ae:
 
 IL_00d3:
 	{
-		// m_XRRenderTargetNeedsClear = false; // register that the XR camera multi-pass target does not need clear any more (until next call to BeginXRRendering)
+		// m_XRRenderTargetNeedsClear = false; 
 		__this->set_m_XRRenderTargetNeedsClear_9((bool)0);
 	}
 
@@ -31797,7 +31787,7 @@ IL_030e:
 
 IL_0338:
 	{
-		// m_FirstTimeCameraColorTargetIsBound = false; // register that we did clear the camera target the first time it was bound
+		// m_FirstTimeCameraColorTargetIsBound = false; 
 		__this->set_m_FirstTimeCameraColorTargetIsBound_7((bool)0);
 		// finalClearFlag |= (cameraClearFlag & ClearFlag.Color);
 		int32_t L_175 = V_19;
@@ -31847,7 +31837,7 @@ IL_036f:
 
 IL_037f:
 	{
-		// m_XRRenderTargetNeedsClear = false; // register that the XR camera multi-pass target does not need clear any more (until next call to BeginXRRendering)
+		// m_XRRenderTargetNeedsClear = false; 
 		__this->set_m_XRRenderTargetNeedsClear_9((bool)0);
 		// }
 		goto IL_039d;
@@ -32754,15 +32744,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableRenderer__cctor_m0470CA064570E
 		((ScriptableRenderer_tB2B4CFA9589461C634B8837207547655ED6E2133_StaticFields*)il2cpp_codegen_static_fields_for(ScriptableRenderer_tB2B4CFA9589461C634B8837207547655ED6E2133_il2cpp_TypeInfo_var))->set_m_ActiveColorAttachments_13(L_15);
 		// static RenderTargetIdentifier[][] m_TrimmedColorAttachmentCopies = new RenderTargetIdentifier[][]
 		// {
-		//     new RenderTargetIdentifier[0],                          // m_TrimmedColorAttachmentCopies[0] is an array of 0 RenderTargetIdentifier - only used to make indexing code easier to read
-		//     new RenderTargetIdentifier[]{0},                        // m_TrimmedColorAttachmentCopies[1] is an array of 1 RenderTargetIdentifier
-		//     new RenderTargetIdentifier[]{0, 0},                     // m_TrimmedColorAttachmentCopies[2] is an array of 2 RenderTargetIdentifiers
-		//     new RenderTargetIdentifier[]{0, 0, 0},                  // m_TrimmedColorAttachmentCopies[3] is an array of 3 RenderTargetIdentifiers
-		//     new RenderTargetIdentifier[]{0, 0, 0, 0},               // m_TrimmedColorAttachmentCopies[4] is an array of 4 RenderTargetIdentifiers
-		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0},            // m_TrimmedColorAttachmentCopies[5] is an array of 5 RenderTargetIdentifiers
-		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0, 0},         // m_TrimmedColorAttachmentCopies[6] is an array of 6 RenderTargetIdentifiers
-		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0, 0, 0},      // m_TrimmedColorAttachmentCopies[7] is an array of 7 RenderTargetIdentifiers
-		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0, 0, 0, 0 },  // m_TrimmedColorAttachmentCopies[8] is an array of 8 RenderTargetIdentifiers
+		//     new RenderTargetIdentifier[0],                          
+		//     new RenderTargetIdentifier[]{0},                        
+		//     new RenderTargetIdentifier[]{0, 0},                     
+		//     new RenderTargetIdentifier[]{0, 0, 0},                  
+		//     new RenderTargetIdentifier[]{0, 0, 0, 0},               
+		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0},            
+		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0, 0},         
+		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0, 0, 0},      
+		//     new RenderTargetIdentifier[]{0, 0, 0, 0, 0, 0, 0, 0 },  
 		// };
 		RenderTargetIdentifierU5BU5DU5BU5D_t1A562F1B3BD9E1D98622DD9E49BCFA03BB538DEE* L_17 = (RenderTargetIdentifierU5BU5DU5BU5D_t1A562F1B3BD9E1D98622DD9E49BCFA03BB538DEE*)(RenderTargetIdentifierU5BU5DU5BU5D_t1A562F1B3BD9E1D98622DD9E49BCFA03BB538DEE*)SZArrayNew(RenderTargetIdentifierU5BU5DU5BU5D_t1A562F1B3BD9E1D98622DD9E49BCFA03BB538DEE_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		RenderTargetIdentifierU5BU5DU5BU5D_t1A562F1B3BD9E1D98622DD9E49BCFA03BB538DEE* L_18 = L_17;
@@ -34268,7 +34258,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m5D84793
 {
 	{
 		int32_t L_0 = (int32_t)__this->get__size_2();
-		return L_0;
+		return (int32_t)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mF00B574E58FB078BB753B05A3B86DD0A7A266B63_gshared_inline (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, int32_t ___index0, const RuntimeMethod* method)
@@ -34290,14 +34280,14 @@ IL_000e:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_2 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)__this->get__items_1();
 		int32_t L_3 = ___index0;
 		RuntimeObject * L_4 = IL2CPP_ARRAY_UNSAFE_LOAD((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)L_2, (int32_t)L_3);
-		return L_4;
+		return (RuntimeObject *)L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = (RuntimeObject *)__this->get_current_3();
-		return L_0;
+		return (RuntimeObject *)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ShaderTagId_t51914C89B8119195DACD234D1A624AAB7A07F795  List_1_get_Item_m3189524BB9FF70D87E92F1B126F44EE3161538D3_gshared_inline (List_1_t65D18DB1CADB0D16AA99FF312F2511EBFE261C83 * __this, int32_t ___index0, const RuntimeMethod* method)
@@ -34319,14 +34309,14 @@ IL_000e:
 		ShaderTagIdU5BU5D_t686E07D907EFB64EA7EDB605791DF44DE6CAD823* L_2 = (ShaderTagIdU5BU5D_t686E07D907EFB64EA7EDB605791DF44DE6CAD823*)__this->get__items_1();
 		int32_t L_3 = ___index0;
 		ShaderTagId_t51914C89B8119195DACD234D1A624AAB7A07F795  L_4 = IL2CPP_ARRAY_UNSAFE_LOAD((ShaderTagIdU5BU5D_t686E07D907EFB64EA7EDB605791DF44DE6CAD823*)L_2, (int32_t)L_3);
-		return L_4;
+		return (ShaderTagId_t51914C89B8119195DACD234D1A624AAB7A07F795 )L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m8992CC717DCA2F362722F840FF6A9C0B9BD2B74E_gshared_inline (List_1_t65D18DB1CADB0D16AA99FF312F2511EBFE261C83 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = (int32_t)__this->get__size_2();
-		return L_0;
+		return (int32_t)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2Int_op_Equality_m00B7F2874DE276B3F10044CED9F633AFE80D366D_inline (Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9  ___lhs0, Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9  ___rhs1, const RuntimeMethod* method)

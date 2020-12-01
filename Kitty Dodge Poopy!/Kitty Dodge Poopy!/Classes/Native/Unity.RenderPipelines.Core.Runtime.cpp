@@ -18558,8 +18558,8 @@ FINALLY_00c0:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(192)
 	{
-		IL2CPP_JUMP_TBL(0xCE, IL_00ce)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xCE, IL_00ce)
 	}
 
 IL_00ce:
@@ -18726,8 +18726,8 @@ FINALLY_004b:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(75)
 	{
-		IL2CPP_JUMP_TBL(0x59, IL_0059)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x59, IL_0059)
 	}
 
 IL_0059:
@@ -19215,7 +19215,7 @@ IL_0031:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraSwitcher_GetCameraCount_m74AA3EA571BCD443C0CA9F2CFE9E7BDA7C43F0DE (CameraSwitcher_t6882381AA4F3E29EF4C74F135E1E9A0970C21966 * __this, const RuntimeMethod* method)
 {
 	{
-		// return m_Cameras.Length + 1; // We need +1 for handling the original camera.
+		// return m_Cameras.Length + 1; 
 		CameraU5BU5D_tAF84B9EC9AF40F1B6294BCEBA82A1AD123A9D001* L_0 = __this->get_m_Cameras_4();
 		NullCheck(L_0);
 		return ((int32_t)il2cpp_codegen_add((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)))), (int32_t)1));
@@ -19776,7 +19776,7 @@ IL_002a:
 		float L_5 = ColorUtils_StandardIlluminantY_m8DB430E5D1512A1D41F3256FC2A4F47CBE0A941D(L_4, /*hidden argument*/NULL);
 		float L_6 = V_1;
 		V_2 = ((float)il2cpp_codegen_add((float)L_5, (float)((float)il2cpp_codegen_multiply((float)L_6, (float)(0.0500000007f)))));
-		// var w1 = new Vector3(0.949237f, 1.03542f, 1.08728f); // D65 white point
+		// var w1 = new Vector3(0.949237f, 1.03542f, 1.08728f); 
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_3), (0.949236989f), (1.03541994f), (1.08728004f), /*hidden argument*/NULL);
 		// var w2 = CIExyToLMS(x, y);
 		float L_7 = V_2;
@@ -21776,7 +21776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoreUtils_SetRenderTarget_m6D3D255602D82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// CoreUtils.SetRenderTarget(cmd, colorBuffers, depthBuffer.rt); // Don't clear here, viewport needs to be set before we do.
+		// CoreUtils.SetRenderTarget(cmd, colorBuffers, depthBuffer.rt); 
 		CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * L_0 = ___cmd0;
 		RenderTargetIdentifierU5BU5D_tBA2016AC6826F6ADBDB1A83D237BD6B08D857C17* L_1 = ___colorBuffers1;
 		RTHandle_t2E47719EB0807C3A23D79B1CDE881D0A112C13D6 * L_2 = ___depthBuffer2;
@@ -22803,7 +22803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CoreUtils_GetAllAssemblyTypes_
 		// m_AssemblyTypes = AppDomain.CurrentDomain.GetAssemblies()
 		//     .SelectMany(t =>
 		//     {
-		//         // Ugly hack to handle mis-versioned dlls
+		//         
 		//         var innerTypes = new Type[0];
 		//         try
 		//         {
@@ -25244,8 +25244,8 @@ FINALLY_0030:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(48)
 	{
-		IL2CPP_JUMP_TBL(0x3E, IL_003e)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x3E, IL_003e)
 	}
 
 IL_003e:
@@ -25525,8 +25525,8 @@ FINALLY_0035:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(53)
 	{
-		IL2CPP_JUMP_TBL(0x43, IL_0043)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x43, IL_0043)
 	}
 
 IL_0043:
@@ -25710,8 +25710,8 @@ FINALLY_0047:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(71)
 	{
-		IL2CPP_JUMP_TBL(0x55, IL_0055)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x55, IL_0055)
 	}
 
 IL_0055:
@@ -25848,9 +25848,9 @@ FINALLY_0031:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(49)
 	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
 		IL2CPP_JUMP_TBL(0x41, IL_0041)
 		IL2CPP_JUMP_TBL(0x3F, IL_003f)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
 	}
 
 IL_003f:
@@ -26014,9 +26014,9 @@ IL_0057:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(78)
 	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
 		IL2CPP_JUMP_TBL(0x5A, IL_005a)
 		IL2CPP_JUMP_TBL(0x58, IL_0058)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
 	}
 
 IL_0058:
@@ -26734,17 +26734,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugShapes_BuildBox_m34D8928CB46F36CAB2
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_7), ((float)il2cpp_codegen_multiply((float)((-L_23)), (float)(0.5f))), ((float)il2cpp_codegen_multiply((float)L_24, (float)(0.5f))), ((float)il2cpp_codegen_multiply((float)((-L_25)), (float)(0.5f))), /*hidden argument*/NULL);
 		// Vector3[] vertices = new Vector3[]
 		// {
-		//     // Bottom
+		//     
 		//     p0, p1, p2, p3,
-		//     // Left
+		//     
 		//     p7, p4, p0, p3,
-		//     // Front
+		//     
 		//     p4, p5, p1, p0,
-		//     // Back
+		//     
 		//     p6, p7, p3, p2,
-		//     // Right
+		//     
 		//     p5, p6, p2, p1,
-		//     // Top
+		//     
 		//     p7, p6, p5, p4
 		// };
 		Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* L_26 = (Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4*)(Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4*)SZArrayNew(Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
@@ -26866,17 +26866,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugShapes_BuildBox_m34D8928CB46F36CAB2
 		V_14 = L_80;
 		// Vector3[] normales = new Vector3[]
 		// {
-		//     // Bottom
+		//     
 		//     down, down, down, down,
-		//     // Left
+		//     
 		//     left, left, left, left,
-		//     // Front
+		//     
 		//     front, front, front, front,
-		//     // Back
+		//     
 		//     back, back, back, back,
-		//     // Right
+		//     
 		//     right, right, right, right,
-		//     // Top
+		//     
 		//     up, up, up, up
 		// };
 		Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* L_81 = (Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4*)(Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4*)SZArrayNew(Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
@@ -26987,17 +26987,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugShapes_BuildBox_m34D8928CB46F36CAB2
 		Vector2__ctor_m9F1F2D5EB5D1FF7091BB527AC8A72CBB309D115E_inline((Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(&V_19), (1.0f), (1.0f), /*hidden argument*/NULL);
 		// Vector2[] uvs = new Vector2[]
 		// {
-		//     // Bottom
+		//     
 		//     _11, _01, _00, _10,
-		//     // Left
+		//     
 		//     _11, _01, _00, _10,
-		//     // Front
+		//     
 		//     _11, _01, _00, _10,
-		//     // Back
+		//     
 		//     _11, _01, _00, _10,
-		//     // Right
+		//     
 		//     _11, _01, _00, _10,
-		//     // Top
+		//     
 		//     _11, _01, _00, _10,
 		// };
 		Vector2U5BU5D_tE0F58A2D6D8592B5EC37D9CDEF09103A02E5D7FA* L_130 = (Vector2U5BU5D_tE0F58A2D6D8592B5EC37D9CDEF09103A02E5D7FA*)(Vector2U5BU5D_tE0F58A2D6D8592B5EC37D9CDEF09103A02E5D7FA*)SZArrayNew(Vector2U5BU5D_tE0F58A2D6D8592B5EC37D9CDEF09103A02E5D7FA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)24));
@@ -27100,22 +27100,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugShapes_BuildBox_m34D8928CB46F36CAB2
 		V_20 = L_177;
 		// int[] triangles = new int[]
 		// {
-		//     // Bottom
+		//     
 		//     3, 1, 0,
 		//     3, 2, 1,
-		//     // Left
+		//     
 		//     3 + 4 * 1, 1 + 4 * 1, 0 + 4 * 1,
 		//     3 + 4 * 1, 2 + 4 * 1, 1 + 4 * 1,
-		//     // Front
+		//     
 		//     3 + 4 * 2, 1 + 4 * 2, 0 + 4 * 2,
 		//     3 + 4 * 2, 2 + 4 * 2, 1 + 4 * 2,
-		//     // Back
+		//     
 		//     3 + 4 * 3, 1 + 4 * 3, 0 + 4 * 3,
 		//     3 + 4 * 3, 2 + 4 * 3, 1 + 4 * 3,
-		//     // Right
+		//     
 		//     3 + 4 * 4, 1 + 4 * 4, 0 + 4 * 4,
 		//     3 + 4 * 4, 2 + 4 * 4, 1 + 4 * 4,
-		//     // Top
+		//     
 		//     3 + 4 * 5, 1 + 4 * 5, 0 + 4 * 5,
 		//     3 + 4 * 5, 2 + 4 * 5, 1 + 4 * 5,
 		// };
@@ -28790,8 +28790,8 @@ FINALLY_004e:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(78)
 	{
-		IL2CPP_JUMP_TBL(0xAF, IL_00af)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xAF, IL_00af)
 	}
 
 IL_005c:
@@ -29423,8 +29423,8 @@ IL_003d:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(45)
 	{
-		IL2CPP_JUMP_TBL(0x3E, IL_003e)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x3E, IL_003e)
 	}
 
 IL_003e:
@@ -29556,8 +29556,8 @@ FINALLY_0061:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(97)
 	{
-		IL2CPP_JUMP_TBL(0x6F, IL_006f)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x6F, IL_006f)
 	}
 
 IL_006f:
@@ -29735,8 +29735,8 @@ IL_014f:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(326)
 	{
-		IL2CPP_JUMP_TBL(0x150, IL_0150)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x150, IL_0150)
 	}
 
 IL_0150:
@@ -31714,8 +31714,8 @@ IL_0061:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(78)
 	{
-		IL2CPP_JUMP_TBL(0x62, IL_0062)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x62, IL_0062)
 	}
 
 IL_0062:
@@ -34520,8 +34520,8 @@ FINALLY_0033:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(51)
 	{
-		IL2CPP_JUMP_TBL(0x41, IL_0041)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x41, IL_0041)
 	}
 
 IL_0041:
@@ -35473,14 +35473,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t56E20A5489EE435FD
 {
 	{
 		KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0  L_0 = (KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0 )__this->get_current_3();
-		return L_0;
+		return (KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0 )L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Value_mC1E2EFCF98529D0550A547CF87C6EAB6821741BF_gshared_inline (KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = (RuntimeObject *)__this->get_value_1();
-		return L_0;
+		return (RuntimeObject *)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Field_1_set_getter_mFF47CCC35631B85D77AC545EEFE2AD5795FF9BBE_gshared_inline (Field_1_t0D0A78AA78A4A92D238CE3898EADBE85E407F639 * __this, Func_1_tCB4CC73D86ED9FF6219A185C0C591F956E5DD1BA * ___value0, const RuntimeMethod* method)
@@ -35520,20 +35520,20 @@ IL_000e:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_2 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)__this->get__items_1();
 		int32_t L_3 = ___index0;
 		RuntimeObject * L_4 = IL2CPP_ARRAY_UNSAFE_LOAD((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)L_2, (int32_t)L_3);
-		return L_4;
+		return (RuntimeObject *)L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m5D847939ABB9A78203B062CAFFE975792174D00F_gshared_inline (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = (int32_t)__this->get__size_2();
-		return L_0;
+		return (int32_t)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = (RuntimeObject *)__this->get_current_3();
-		return L_0;
+		return (RuntimeObject *)L_0;
 	}
 }

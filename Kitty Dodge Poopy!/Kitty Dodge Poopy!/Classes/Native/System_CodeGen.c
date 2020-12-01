@@ -1253,110 +1253,110 @@ extern void X509SubjectKeyIdentifierExtension_Decode_m6ED45FB642F2A5EDAD51EE357C
 extern void X509SubjectKeyIdentifierExtension_Encode_m6BEC26EF891B31FF98EF4FDF96CC0E9CEDF0B208 (void);
 // 0x0000026B System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::ToString(System.Boolean)
 extern void X509SubjectKeyIdentifierExtension_ToString_mBD5BE20274B5B56104E6ECD3137DE0718DE50537 (void);
-// 0x0000026C System.Void System.Net.EndPoint::.ctor()
+// 0x0000026C System.Void System.Collections.Generic.ICollectionDebugView`1::.ctor(System.Collections.Generic.ICollection`1<T>)
+// 0x0000026D T[] System.Collections.Generic.ICollectionDebugView`1::get_Items()
+// 0x0000026E System.Void System.Collections.Generic.LinkedList`1::.ctor()
+// 0x0000026F System.Void System.Collections.Generic.LinkedList`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000270 System.Int32 System.Collections.Generic.LinkedList`1::get_Count()
+// 0x00000271 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::get_First()
+// 0x00000272 System.Boolean System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+// 0x00000273 System.Void System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.Add(T)
+// 0x00000274 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::AddFirst(T)
+// 0x00000275 System.Void System.Collections.Generic.LinkedList`1::AddFirst(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000276 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::AddLast(T)
+// 0x00000277 System.Void System.Collections.Generic.LinkedList`1::Clear()
+// 0x00000278 System.Boolean System.Collections.Generic.LinkedList`1::Contains(T)
+// 0x00000279 System.Void System.Collections.Generic.LinkedList`1::CopyTo(T[],System.Int32)
+// 0x0000027A System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::Find(T)
+// 0x0000027B System.Collections.Generic.LinkedList`1_Enumerator<T> System.Collections.Generic.LinkedList`1::GetEnumerator()
+// 0x0000027C System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.LinkedList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x0000027D System.Boolean System.Collections.Generic.LinkedList`1::Remove(T)
+// 0x0000027E System.Void System.Collections.Generic.LinkedList`1::Remove(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x0000027F System.Void System.Collections.Generic.LinkedList`1::RemoveLast()
+// 0x00000280 System.Void System.Collections.Generic.LinkedList`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000281 System.Void System.Collections.Generic.LinkedList`1::OnDeserialization(System.Object)
+// 0x00000282 System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode`1<T>,System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000283 System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000284 System.Void System.Collections.Generic.LinkedList`1::InternalRemoveNode(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000285 System.Void System.Collections.Generic.LinkedList`1::ValidateNewNode(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000286 System.Void System.Collections.Generic.LinkedList`1::ValidateNode(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000287 System.Void System.Collections.Generic.LinkedList`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000288 System.Collections.IEnumerator System.Collections.Generic.LinkedList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000289 System.Void System.Collections.Generic.LinkedList`1_Enumerator::.ctor(System.Collections.Generic.LinkedList`1<T>)
+// 0x0000028A System.Void System.Collections.Generic.LinkedList`1_Enumerator::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x0000028B T System.Collections.Generic.LinkedList`1_Enumerator::get_Current()
+// 0x0000028C System.Object System.Collections.Generic.LinkedList`1_Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x0000028D System.Boolean System.Collections.Generic.LinkedList`1_Enumerator::MoveNext()
+// 0x0000028E System.Void System.Collections.Generic.LinkedList`1_Enumerator::System.Collections.IEnumerator.Reset()
+// 0x0000028F System.Void System.Collections.Generic.LinkedList`1_Enumerator::Dispose()
+// 0x00000290 System.Void System.Collections.Generic.LinkedList`1_Enumerator::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000291 System.Void System.Collections.Generic.LinkedList`1_Enumerator::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
+// 0x00000292 System.Void System.Collections.Generic.LinkedListNode`1::.ctor(System.Collections.Generic.LinkedList`1<T>,T)
+// 0x00000293 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1::get_Next()
+// 0x00000294 T System.Collections.Generic.LinkedListNode`1::get_Value()
+// 0x00000295 System.Void System.Collections.Generic.LinkedListNode`1::Invalidate()
+// 0x00000296 System.Void System.Collections.Generic.Stack`1::.ctor()
+// 0x00000297 System.Int32 System.Collections.Generic.Stack`1::get_Count()
+// 0x00000298 System.Void System.Collections.Generic.Stack`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000299 System.Collections.Generic.Stack`1_Enumerator<T> System.Collections.Generic.Stack`1::GetEnumerator()
+// 0x0000029A System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Stack`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x0000029B System.Collections.IEnumerator System.Collections.Generic.Stack`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000029C T System.Collections.Generic.Stack`1::Peek()
+// 0x0000029D T System.Collections.Generic.Stack`1::Pop()
+// 0x0000029E System.Void System.Collections.Generic.Stack`1::Push(T)
+// 0x0000029F T[] System.Collections.Generic.Stack`1::ToArray()
+// 0x000002A0 System.Void System.Collections.Generic.Stack`1::ThrowForEmptyStack()
+// 0x000002A1 System.Void System.Collections.Generic.Stack`1_Enumerator::.ctor(System.Collections.Generic.Stack`1<T>)
+// 0x000002A2 System.Void System.Collections.Generic.Stack`1_Enumerator::Dispose()
+// 0x000002A3 System.Boolean System.Collections.Generic.Stack`1_Enumerator::MoveNext()
+// 0x000002A4 T System.Collections.Generic.Stack`1_Enumerator::get_Current()
+// 0x000002A5 System.Void System.Collections.Generic.Stack`1_Enumerator::ThrowEnumerationNotStartedOrEnded()
+// 0x000002A6 System.Object System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x000002A7 System.Void System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.Reset()
+// 0x000002A8 System.Void System.Collections.Generic.StackDebugView`1::.ctor(System.Collections.Generic.Stack`1<T>)
+// 0x000002A9 T[] System.Collections.Generic.StackDebugView`1::get_Items()
+// 0x000002AA System.Void System.Net.EndPoint::.ctor()
 extern void EndPoint__ctor_m128E616435E17A62A3DD7D0BC759FB0CF7F87C29 (void);
-// 0x0000026D System.Void System.Net.IPAddress::.ctor(System.Int64)
+// 0x000002AB System.Void System.Net.IPAddress::.ctor(System.Int64)
 extern void IPAddress__ctor_mA672DA31F082CC6E8B10BEC436D94450E630E16F (void);
-// 0x0000026E System.Void System.Net.IPAddress::.ctor(System.Byte[],System.Int64)
+// 0x000002AC System.Void System.Net.IPAddress::.ctor(System.Byte[],System.Int64)
 extern void IPAddress__ctor_m1E185EFDA876C940958AF536535E2E4C16C0D1D2 (void);
-// 0x0000026F System.Void System.Net.IPAddress::.ctor(System.Int32)
+// 0x000002AD System.Void System.Net.IPAddress::.ctor(System.Int32)
 extern void IPAddress__ctor_m75238FEA3E8B108639752167DBE53DDD799CD7B8 (void);
-// 0x00000270 System.Int64 System.Net.IPAddress::get_ScopeId()
+// 0x000002AE System.Int64 System.Net.IPAddress::get_ScopeId()
 extern void IPAddress_get_ScopeId_mEDF9FA0FCEFAC4109AEDAD316DC18C5EE841CE5B (void);
-// 0x00000271 System.String System.Net.IPAddress::ToString()
+// 0x000002AF System.String System.Net.IPAddress::ToString()
 extern void IPAddress_ToString_m4CFA8A08819BEDF5293C486AF623F5A4014AF8AC (void);
-// 0x00000272 System.Boolean System.Net.IPAddress::Equals(System.Object,System.Boolean)
+// 0x000002B0 System.Boolean System.Net.IPAddress::Equals(System.Object,System.Boolean)
 extern void IPAddress_Equals_m4B1CA27458D8182146569D0BC82A2D3A23346516 (void);
-// 0x00000273 System.Boolean System.Net.IPAddress::Equals(System.Object)
+// 0x000002B1 System.Boolean System.Net.IPAddress::Equals(System.Object)
 extern void IPAddress_Equals_mA898722519C090D557CA585C2FDB496D92D3CEB3 (void);
-// 0x00000274 System.Int32 System.Net.IPAddress::GetHashCode()
+// 0x000002B2 System.Int32 System.Net.IPAddress::GetHashCode()
 extern void IPAddress_GetHashCode_m3A6682B1FAA8754BB7AF27913FFE319ABFED9D50 (void);
-// 0x00000275 System.Void System.Net.IPAddress::.cctor()
+// 0x000002B3 System.Void System.Net.IPAddress::.cctor()
 extern void IPAddress__cctor_mA3EA3A0F0F5B03634732C2DF4780B8438F8AAB57 (void);
-// 0x00000276 System.Void System.Net.IPv6AddressFormatter::.ctor(System.UInt16[],System.Int64)
+// 0x000002B4 System.Void System.Net.IPv6AddressFormatter::.ctor(System.UInt16[],System.Int64)
 extern void IPv6AddressFormatter__ctor_mEEFF87906A194838D6E4A31AB724A28808E539E5_AdjustorThunk (void);
-// 0x00000277 System.UInt16 System.Net.IPv6AddressFormatter::SwapUShort(System.UInt16)
+// 0x000002B5 System.UInt16 System.Net.IPv6AddressFormatter::SwapUShort(System.UInt16)
 extern void IPv6AddressFormatter_SwapUShort_m422438633F4CADBE0EAB77D23AD3334FD01ACEC6 (void);
-// 0x00000278 System.UInt32 System.Net.IPv6AddressFormatter::AsIPv4Int()
+// 0x000002B6 System.UInt32 System.Net.IPv6AddressFormatter::AsIPv4Int()
 extern void IPv6AddressFormatter_AsIPv4Int_m875CCBC60A506A331C9D591D5A88D49EBB6730E7_AdjustorThunk (void);
-// 0x00000279 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Compatible()
+// 0x000002B7 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Compatible()
 extern void IPv6AddressFormatter_IsIPv4Compatible_m769BBFB4FBB844EC8AB61A635495A7F2925FDD99_AdjustorThunk (void);
-// 0x0000027A System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Mapped()
+// 0x000002B8 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Mapped()
 extern void IPv6AddressFormatter_IsIPv4Mapped_m46AE9AECC6E77E6A53ACBF60BEF336D45FF236DB_AdjustorThunk (void);
-// 0x0000027B System.String System.Net.IPv6AddressFormatter::ToString()
+// 0x000002B9 System.String System.Net.IPv6AddressFormatter::ToString()
 extern void IPv6AddressFormatter_ToString_m5FB0F927F3B0BAA521BC92562A7F5A78460023DC_AdjustorThunk (void);
-// 0x0000027C System.Int32 System.Net.Sockets.SocketException::WSAGetLastError_internal()
+// 0x000002BA System.Int32 System.Net.Sockets.SocketException::WSAGetLastError_internal()
 extern void SocketException_WSAGetLastError_internal_m99F586D3C14E2051DBB53BEF3716A740EA9223E2 (void);
-// 0x0000027D System.Void System.Net.Sockets.SocketException::.ctor()
+// 0x000002BB System.Void System.Net.Sockets.SocketException::.ctor()
 extern void SocketException__ctor_mA4FA4C30962B1DD852904297C47EB05A9C97B7F9 (void);
-// 0x0000027E System.Void System.Net.Sockets.SocketException::.ctor(System.Net.Sockets.SocketError)
+// 0x000002BC System.Void System.Net.Sockets.SocketException::.ctor(System.Net.Sockets.SocketError)
 extern void SocketException__ctor_m8625815C7AFB0F3BF9287520D8F64A69199D6DCA (void);
-// 0x0000027F System.Void System.Net.Sockets.SocketException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000002BD System.Void System.Net.Sockets.SocketException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void SocketException__ctor_m59175465D17AE63C1E18A1B25D80AD41708A51B5 (void);
-// 0x00000280 System.String System.Net.Sockets.SocketException::get_Message()
+// 0x000002BE System.String System.Net.Sockets.SocketException::get_Message()
 extern void SocketException_get_Message_mAC33600C2CC211D3C5C6363DAE3A843FD3E366EE (void);
-// 0x00000281 System.Void System.Collections.Generic.ICollectionDebugView`1::.ctor(System.Collections.Generic.ICollection`1<T>)
-// 0x00000282 T[] System.Collections.Generic.ICollectionDebugView`1::get_Items()
-// 0x00000283 System.Void System.Collections.Generic.LinkedList`1::.ctor()
-// 0x00000284 System.Void System.Collections.Generic.LinkedList`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000285 System.Int32 System.Collections.Generic.LinkedList`1::get_Count()
-// 0x00000286 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::get_First()
-// 0x00000287 System.Boolean System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-// 0x00000288 System.Void System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.Add(T)
-// 0x00000289 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::AddFirst(T)
-// 0x0000028A System.Void System.Collections.Generic.LinkedList`1::AddFirst(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000028B System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::AddLast(T)
-// 0x0000028C System.Void System.Collections.Generic.LinkedList`1::Clear()
-// 0x0000028D System.Boolean System.Collections.Generic.LinkedList`1::Contains(T)
-// 0x0000028E System.Void System.Collections.Generic.LinkedList`1::CopyTo(T[],System.Int32)
-// 0x0000028F System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::Find(T)
-// 0x00000290 System.Collections.Generic.LinkedList`1_Enumerator<T> System.Collections.Generic.LinkedList`1::GetEnumerator()
-// 0x00000291 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.LinkedList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x00000292 System.Boolean System.Collections.Generic.LinkedList`1::Remove(T)
-// 0x00000293 System.Void System.Collections.Generic.LinkedList`1::Remove(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x00000294 System.Void System.Collections.Generic.LinkedList`1::RemoveLast()
-// 0x00000295 System.Void System.Collections.Generic.LinkedList`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000296 System.Void System.Collections.Generic.LinkedList`1::OnDeserialization(System.Object)
-// 0x00000297 System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode`1<T>,System.Collections.Generic.LinkedListNode`1<T>)
-// 0x00000298 System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x00000299 System.Void System.Collections.Generic.LinkedList`1::InternalRemoveNode(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000029A System.Void System.Collections.Generic.LinkedList`1::ValidateNewNode(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000029B System.Void System.Collections.Generic.LinkedList`1::ValidateNode(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000029C System.Void System.Collections.Generic.LinkedList`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-// 0x0000029D System.Collections.IEnumerator System.Collections.Generic.LinkedList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000029E System.Void System.Collections.Generic.LinkedList`1_Enumerator::.ctor(System.Collections.Generic.LinkedList`1<T>)
-// 0x0000029F System.Void System.Collections.Generic.LinkedList`1_Enumerator::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x000002A0 T System.Collections.Generic.LinkedList`1_Enumerator::get_Current()
-// 0x000002A1 System.Object System.Collections.Generic.LinkedList`1_Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x000002A2 System.Boolean System.Collections.Generic.LinkedList`1_Enumerator::MoveNext()
-// 0x000002A3 System.Void System.Collections.Generic.LinkedList`1_Enumerator::System.Collections.IEnumerator.Reset()
-// 0x000002A4 System.Void System.Collections.Generic.LinkedList`1_Enumerator::Dispose()
-// 0x000002A5 System.Void System.Collections.Generic.LinkedList`1_Enumerator::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x000002A6 System.Void System.Collections.Generic.LinkedList`1_Enumerator::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-// 0x000002A7 System.Void System.Collections.Generic.LinkedListNode`1::.ctor(System.Collections.Generic.LinkedList`1<T>,T)
-// 0x000002A8 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1::get_Next()
-// 0x000002A9 T System.Collections.Generic.LinkedListNode`1::get_Value()
-// 0x000002AA System.Void System.Collections.Generic.LinkedListNode`1::Invalidate()
-// 0x000002AB System.Void System.Collections.Generic.Stack`1::.ctor()
-// 0x000002AC System.Int32 System.Collections.Generic.Stack`1::get_Count()
-// 0x000002AD System.Void System.Collections.Generic.Stack`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-// 0x000002AE System.Collections.Generic.Stack`1_Enumerator<T> System.Collections.Generic.Stack`1::GetEnumerator()
-// 0x000002AF System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Stack`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x000002B0 System.Collections.IEnumerator System.Collections.Generic.Stack`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x000002B1 T System.Collections.Generic.Stack`1::Peek()
-// 0x000002B2 T System.Collections.Generic.Stack`1::Pop()
-// 0x000002B3 System.Void System.Collections.Generic.Stack`1::Push(T)
-// 0x000002B4 T[] System.Collections.Generic.Stack`1::ToArray()
-// 0x000002B5 System.Void System.Collections.Generic.Stack`1::ThrowForEmptyStack()
-// 0x000002B6 System.Void System.Collections.Generic.Stack`1_Enumerator::.ctor(System.Collections.Generic.Stack`1<T>)
-// 0x000002B7 System.Void System.Collections.Generic.Stack`1_Enumerator::Dispose()
-// 0x000002B8 System.Boolean System.Collections.Generic.Stack`1_Enumerator::MoveNext()
-// 0x000002B9 T System.Collections.Generic.Stack`1_Enumerator::get_Current()
-// 0x000002BA System.Void System.Collections.Generic.Stack`1_Enumerator::ThrowEnumerationNotStartedOrEnded()
-// 0x000002BB System.Object System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x000002BC System.Void System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.Reset()
-// 0x000002BD System.Void System.Collections.Generic.StackDebugView`1::.ctor(System.Collections.Generic.Stack`1<T>)
-// 0x000002BE T[] System.Collections.Generic.StackDebugView`1::get_Items()
 // 0x000002BF System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_mF68FD3031E09D93558520520C63240F3EA7D6AC6 (void);
 // 0x000002C0 System.Void System.Net.Configuration.BypassElementCollection::.ctor()
@@ -2040,6 +2040,68 @@ static Il2CppMethodPointer s_methodPointers[733] =
 	X509SubjectKeyIdentifierExtension_Decode_m6ED45FB642F2A5EDAD51EE357CAB8EB95BC8EBA9,
 	X509SubjectKeyIdentifierExtension_Encode_m6BEC26EF891B31FF98EF4FDF96CC0E9CEDF0B208,
 	X509SubjectKeyIdentifierExtension_ToString_mBD5BE20274B5B56104E6ECD3137DE0718DE50537,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	EndPoint__ctor_m128E616435E17A62A3DD7D0BC759FB0CF7F87C29,
 	IPAddress__ctor_mA672DA31F082CC6E8B10BEC436D94450E630E16F,
 	IPAddress__ctor_m1E185EFDA876C940958AF536535E2E4C16C0D1D2,
@@ -2061,68 +2123,6 @@ static Il2CppMethodPointer s_methodPointers[733] =
 	SocketException__ctor_m8625815C7AFB0F3BF9287520D8F64A69199D6DCA,
 	SocketException__ctor_m59175465D17AE63C1E18A1B25D80AD41708A51B5,
 	SocketException_get_Message_mAC33600C2CC211D3C5C6363DAE3A843FD3E366EE,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_mF68FD3031E09D93558520520C63240F3EA7D6AC6,
 	BypassElementCollection__ctor_m2047F6046437B6101F59D781474BF71CF5650979,
 	ConnectionManagementElementCollection__ctor_mFFAEA4E88F5C33B6DA8531C079C852A77FD04A19,
@@ -2776,6 +2776,68 @@ static const int32_t s_InvokerIndices[733] =
 	104,
 	14,
 	309,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
 	23,
 	162,
 	132,
@@ -2797,68 +2859,6 @@ static const int32_t s_InvokerIndices[733] =
 	32,
 	161,
 	14,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
 	189,
 	23,
 	23,
@@ -2893,19 +2893,19 @@ static const int32_t s_InvokerIndices[733] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[6] = 
 {
-	{ 0x02000064, { 0, 2 } },
-	{ 0x02000065, { 2, 23 } },
-	{ 0x02000066, { 25, 2 } },
-	{ 0x02000068, { 27, 7 } },
-	{ 0x02000069, { 34, 3 } },
-	{ 0x0200006A, { 37, 1 } },
+	{ 0x0200005E, { 0, 2 } },
+	{ 0x0200005F, { 2, 23 } },
+	{ 0x02000060, { 25, 2 } },
+	{ 0x02000062, { 27, 7 } },
+	{ 0x02000063, { 34, 3 } },
+	{ 0x02000064, { 37, 1 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[38] = 
 {
-	{ (Il2CppRGCTXDataType)2, 5236 },
-	{ (Il2CppRGCTXDataType)2, 5238 },
+	{ (Il2CppRGCTXDataType)2, 5219 },
+	{ (Il2CppRGCTXDataType)2, 5221 },
 	{ (Il2CppRGCTXDataType)3, 10503 },
-	{ (Il2CppRGCTXDataType)2, 5242 },
+	{ (Il2CppRGCTXDataType)2, 5225 },
 	{ (Il2CppRGCTXDataType)3, 10504 },
 	{ (Il2CppRGCTXDataType)3, 10505 },
 	{ (Il2CppRGCTXDataType)3, 10506 },
@@ -2915,30 +2915,30 @@ static const Il2CppRGCTXDefinition s_rgctxValues[38] =
 	{ (Il2CppRGCTXDataType)3, 10510 },
 	{ (Il2CppRGCTXDataType)3, 10511 },
 	{ (Il2CppRGCTXDataType)3, 10512 },
-	{ (Il2CppRGCTXDataType)2, 10400 },
-	{ (Il2CppRGCTXDataType)2, 5243 },
+	{ (Il2CppRGCTXDataType)2, 10406 },
+	{ (Il2CppRGCTXDataType)2, 5226 },
 	{ (Il2CppRGCTXDataType)3, 10513 },
-	{ (Il2CppRGCTXDataType)2, 5245 },
+	{ (Il2CppRGCTXDataType)2, 5228 },
 	{ (Il2CppRGCTXDataType)3, 10514 },
 	{ (Il2CppRGCTXDataType)3, 10515 },
 	{ (Il2CppRGCTXDataType)3, 10516 },
 	{ (Il2CppRGCTXDataType)3, 10517 },
-	{ (Il2CppRGCTXDataType)2, 5244 },
+	{ (Il2CppRGCTXDataType)2, 5227 },
 	{ (Il2CppRGCTXDataType)3, 10518 },
-	{ (Il2CppRGCTXDataType)1, 5244 },
-	{ (Il2CppRGCTXDataType)2, 5244 },
+	{ (Il2CppRGCTXDataType)1, 5227 },
+	{ (Il2CppRGCTXDataType)2, 5227 },
 	{ (Il2CppRGCTXDataType)3, 10519 },
-	{ (Il2CppRGCTXDataType)2, 5251 },
+	{ (Il2CppRGCTXDataType)2, 5234 },
 	{ (Il2CppRGCTXDataType)3, 10520 },
-	{ (Il2CppRGCTXDataType)2, 5271 },
+	{ (Il2CppRGCTXDataType)2, 5254 },
 	{ (Il2CppRGCTXDataType)3, 10521 },
 	{ (Il2CppRGCTXDataType)3, 10522 },
 	{ (Il2CppRGCTXDataType)3, 10523 },
 	{ (Il2CppRGCTXDataType)3, 10524 },
-	{ (Il2CppRGCTXDataType)2, 5274 },
+	{ (Il2CppRGCTXDataType)2, 5257 },
 	{ (Il2CppRGCTXDataType)3, 10525 },
 	{ (Il2CppRGCTXDataType)3, 10526 },
-	{ (Il2CppRGCTXDataType)2, 5279 },
+	{ (Il2CppRGCTXDataType)2, 5262 },
 	{ (Il2CppRGCTXDataType)3, 10527 },
 };
 extern const Il2CppCodeGenModule g_SystemCodeGenModule;

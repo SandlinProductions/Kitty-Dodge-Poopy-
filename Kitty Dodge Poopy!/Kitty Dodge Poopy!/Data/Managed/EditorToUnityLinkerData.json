@@ -1,5 +1,30 @@
 {
+    "serializedTypes": [],
     "typesInScenes": [
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioBehaviour",
+            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioListener",
+            "fullManagedTypeName": "UnityEngine.AudioListener",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
         {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Behaviour",
@@ -99,6 +124,30 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Transform",
+            "fullManagedTypeName": "UnityEngine.Transform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Texture",
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
@@ -113,6 +162,18 @@
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Component",
             "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "GameObject",
+            "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scene/StartMenu.unity",
@@ -329,30 +390,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioBehaviour",
-            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioListener",
-            "fullManagedTypeName": "UnityEngine.AudioListener",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Canvas",
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
@@ -435,42 +472,6 @@
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "RenderSettings",
             "fullManagedTypeName": "UnityEngine.RenderSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Transform",
-            "fullManagedTypeName": "UnityEngine.Transform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "GameObject",
-            "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scene/StartMenu.unity",

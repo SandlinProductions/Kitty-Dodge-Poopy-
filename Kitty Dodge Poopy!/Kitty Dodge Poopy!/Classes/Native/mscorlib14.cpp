@@ -20839,8 +20839,8 @@ IL_00f2:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(226)
 	{
-		IL2CPP_JUMP_TBL(0x105, IL_0105)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x105, IL_0105)
 	}
 
 IL_00f3:
@@ -20978,8 +20978,8 @@ IL_0085:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(117)
 	{
-		IL2CPP_JUMP_TBL(0x91, IL_0091)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x91, IL_0091)
 	}
 
 IL_0086:
@@ -21410,8 +21410,8 @@ IL_0155:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(325)
 	{
-		IL2CPP_JUMP_TBL(0x168, IL_0168)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x168, IL_0168)
 	}
 
 IL_0156:
@@ -21609,8 +21609,8 @@ IL_00d0:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(192)
 	{
-		IL2CPP_JUMP_TBL(0xDC, IL_00dc)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xDC, IL_00dc)
 	}
 
 IL_00d1:
@@ -23738,7 +23738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Version__cctor_mF393D014C147B3DE57D6A147
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Boolean System.Threading.Volatile::Read(System.Boolean&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Volatile_Read_mA6C74BD7FF9BC8A7F25576E7B48F88B4DC9F7F02 (bool* ___location0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Volatile_Read_mA6C74BD7FF9BC8A7F25576E7B48F88B4DC9F7F02 (bool* ___location0, const RuntimeMethod* method)
 {
 	return VolatileRead(___location0);
 }
@@ -24694,8 +24694,8 @@ FINALLY_0016:
 		} // end finally (depth: 2)
 		IL2CPP_CLEANUP(22)
 		{
-			IL2CPP_JUMP_TBL(0x2A, IL_002a)
 			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+			IL2CPP_JUMP_TBL(0x2A, IL_002a)
 		}
 
 IL_002a:
@@ -24817,8 +24817,8 @@ IL_009c:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(126)
 	{
-		IL2CPP_JUMP_TBL(0x9D, IL_009d)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x9D, IL_009d)
 	}
 
 IL_009d:
@@ -24897,8 +24897,8 @@ IL_0028:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(31)
 	{
-		IL2CPP_JUMP_TBL(0x29, IL_0029)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x29, IL_0029)
 	}
 
 IL_0029:
@@ -25298,8 +25298,8 @@ FINALLY_000d:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(13)
 	{
-		IL2CPP_JUMP_TBL(0x14, IL_0014)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x14, IL_0014)
 	}
 
 IL_0014:
@@ -39858,8 +39858,8 @@ FINALLY_0039:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(57)
 	{
-		IL2CPP_JUMP_TBL(0x50, IL_0050)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x50, IL_0050)
 	}
 
 IL_0045:
@@ -40365,8 +40365,8 @@ IL_004d:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(57)
 	{
-		IL2CPP_JUMP_TBL(0x4E, IL_004e)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x4E, IL_004e)
 	}
 
 IL_004e:

@@ -201,6 +201,7 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_i
 IL2CPP_EXTERN_C RuntimeClass* PointCounter_t484CFF668CF564491FED58B0A3AF0634CE0F23E7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PowerUpCounter_tB7E7FF608E575858CA920AB84A4E5FF1F5A4B9D6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TwoXPowerUpController_tBF0B0342A7725A78C7C4C7D8BFE3A377B3B352D0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CStartU3Ed__2_tAD3A0A2F6D0652DB7402366D9ED99D13004EA2E7_il2cpp_TypeInfo_var;
@@ -275,6 +276,7 @@ IL2CPP_EXTERN_C const uint32_t U3CStartU3Ed__2_System_Collections_IEnumerator_Re
 IL2CPP_EXTERN_C const uint32_t U3CU3Ec_U3CLeaderBoardU3Eb__12_0_m07AE815A73F9F4AC3182CCED39903318AEE5D086_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t U3CU3Ec__cctor_mBA5A8E7D4C803C8F80B71126C81B4760B987AD2A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UIManager_LeaderBoard_mACEC42B466D1F6360D7200C030F5939B9EEEC729_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t UIManager_LoadLevel_m89C5C3E96C41549B9A24374AF950DC02E1EA556D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UIManager_Reload_m41C8B45591CF14148439AE9A52C196A962CFCBBB_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UIManager_Start_mAA4B371DC406146E84A9D8803B9C861939B2E04E_MetadataUsageId;
 struct Delegate_t_marshaled_com;
@@ -4443,6 +4445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Start_mAA4B371DC406146E84A9D88
 		// hideFinished();
 		UIManager_hideFinished_m9E70BB92EEA69017129C964B998F4B6D259D1570(__this, /*hidden argument*/NULL);
 		// if (SceneManager.GetActiveScene().name == "MainLevel")
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE  L_2 = SceneManager_GetActiveScene_mB9A5037FFB576B2432D0BFEF6A161B7C4C1921A4(/*hidden argument*/NULL);
 		V_0 = L_2;
 		String_t* L_3 = Scene_get_name_m38F195D7CA6417FED310C23E4D8E86150C7835B8((Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE *)(&V_0), /*hidden argument*/NULL);
@@ -4568,6 +4571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Reload_m41C8B45591CF14148439AE
 	}
 	{
 		// SceneManager.LoadScene("MainLevel");
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(_stringLiteralCCAEE0777686926FE6E38F7007EC092146C4C3A8, /*hidden argument*/NULL);
 		// }
 		return;
@@ -4794,9 +4798,16 @@ IL_0018:
 // System.Void UIManager::LoadLevel(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_LoadLevel_m89C5C3E96C41549B9A24374AF950DC02E1EA556D (UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858 * __this, String_t* ___level0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UIManager_LoadLevel_m89C5C3E96C41549B9A24374AF950DC02E1EA556D_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		// SceneManager.LoadScene(level);
 		String_t* L_0 = ___level0;
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_0, /*hidden argument*/NULL);
 		// }
 		return;
@@ -4820,7 +4831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_LeaderBoard_mACEC42B466D1F6360
 	{
 		// Social.ReportScore((int)PlayerPrefs.GetFloat("BestKitties"), "com.SandlinProductions.KittyDodgePoopy.Leaderboard", (bool success) =>
 		// {
-		//     // handle success or failure
+		//     
 		//     Debug.Log("new highscore posted");
 		// });
 		float L_0 = PlayerPrefs_GetFloat_mE1D320A00FD515BF31529093C3A4144F04AC0471(_stringLiteral674F193EB00229583355DCE256A9403A607539FE, /*hidden argument*/NULL);
@@ -4977,6 +4988,7 @@ IL_0083:
 		SlashScreen_t69D5BC9952FB3110A942EB71420046B1B1DE1FDD * L_10 = V_1;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->get_loadScene_5();
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_11, /*hidden argument*/NULL);
 		// }
 		return (bool)0;

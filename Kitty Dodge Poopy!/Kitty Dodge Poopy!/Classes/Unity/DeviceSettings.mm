@@ -252,7 +252,9 @@ DeviceTableEntry DeviceTable[] =
     { iPad, 6, 3, 4, deviceiPadPro10Inch1Gen },
     { iPad, 7, 3, 4, deviceiPadPro10Inch2Gen },
     { iPad, 8, 1, 4, deviceiPadPro11Inch },
+    { iPad, 8, 9, 10, deviceiPadPro11Inch2Gen },
     { iPad, 8, 5, 8, deviceiPadPro3Gen },
+    { iPad, 8, 11, 12, deviceiPadPro4Gen },
 
     { AppleTV, 5, 3, 3, deviceAppleTV1Gen },
     { AppleTV, 6, 2, 2, deviceAppleTV2Gen }

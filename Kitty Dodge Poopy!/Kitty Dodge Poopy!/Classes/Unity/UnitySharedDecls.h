@@ -66,6 +66,8 @@ typedef enum DeviceGeneration
     deviceiPhone11ProMax    = 50,
     deviceiPodTouch7Gen = 51,
     deviceiPad7Gen      = 52,
+    deviceiPadPro11Inch2Gen  = 54,
+    deviceiPadPro4Gen  = 55,
 
     deviceiPhoneUnknown     = 10001,
     deviceiPadUnknown       = 10002,

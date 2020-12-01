@@ -5561,8 +5561,8 @@ FINALLY_0031:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(49)
 	{
-		IL2CPP_JUMP_TBL(0x39, IL_0039)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x39, IL_0039)
 	}
 
 IL_0039:
@@ -8148,8 +8148,8 @@ FINALLY_014a:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(330)
 	{
-		IL2CPP_JUMP_TBL(0x159, IL_0159)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x159, IL_0159)
 	}
 
 IL_0159:
@@ -8327,8 +8327,8 @@ FINALLY_0291:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(657)
 	{
-		IL2CPP_JUMP_TBL(0x2A0, IL_02a0)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x2A0, IL_02a0)
 	}
 
 IL_02a0:
@@ -8740,8 +8740,8 @@ FINALLY_00e8:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(232)
 	{
-		IL2CPP_JUMP_TBL(0xF7, IL_00f7)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xF7, IL_00f7)
 	}
 
 IL_00f7:
@@ -8855,8 +8855,8 @@ FINALLY_019d:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(413)
 	{
-		IL2CPP_JUMP_TBL(0x1AC, IL_01ac)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x1AC, IL_01ac)
 	}
 
 IL_01ac:
@@ -9140,8 +9140,8 @@ FINALLY_03a2:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(930)
 	{
-		IL2CPP_JUMP_TBL(0x3B1, IL_03b1)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x3B1, IL_03b1)
 	}
 
 IL_03b1:
@@ -9386,8 +9386,8 @@ FINALLY_017a:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(378)
 	{
-		IL2CPP_JUMP_TBL(0x189, IL_0189)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x189, IL_0189)
 	}
 
 IL_0189:
@@ -9561,8 +9561,8 @@ FINALLY_02b3:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(691)
 	{
-		IL2CPP_JUMP_TBL(0x2C2, IL_02c2)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x2C2, IL_02c2)
 	}
 
 IL_02c2:
@@ -10105,8 +10105,8 @@ FINALLY_0238:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(568)
 	{
-		IL2CPP_JUMP_TBL(0x247, IL_0247)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x247, IL_0247)
 	}
 
 IL_0247:
@@ -10235,8 +10235,8 @@ FINALLY_0303:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(771)
 	{
-		IL2CPP_JUMP_TBL(0x312, IL_0312)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x312, IL_0312)
 	}
 
 IL_0312:
@@ -10350,8 +10350,8 @@ FINALLY_03b6:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(950)
 	{
-		IL2CPP_JUMP_TBL(0x3C5, IL_03c5)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x3C5, IL_03c5)
 	}
 
 IL_03c5:
@@ -10501,8 +10501,8 @@ FINALLY_00a4:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(164)
 	{
-		IL2CPP_JUMP_TBL(0xB3, IL_00b3)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xB3, IL_00b3)
 	}
 
 IL_00b3:
@@ -11148,8 +11148,8 @@ FINALLY_0031:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(49)
 	{
-		IL2CPP_JUMP_TBL(0x40, IL_0040)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x40, IL_0040)
 	}
 
 IL_0040:
@@ -13881,8 +13881,8 @@ FINALLY_0031:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(49)
 	{
-		IL2CPP_JUMP_TBL(0x39, IL_0039)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x39, IL_0039)
 	}
 
 IL_0039:
@@ -14324,8 +14324,8 @@ FINALLY_0025:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(37)
 	{
-		IL2CPP_JUMP_TBL(0x2D, IL_002d)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x2D, IL_002d)
 	}
 
 IL_002d:
@@ -14867,8 +14867,8 @@ FINALLY_0052:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(82)
 	{
-		IL2CPP_JUMP_TBL(0x5B, IL_005b)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x5B, IL_005b)
 	}
 
 IL_005b:
@@ -15462,8 +15462,8 @@ IL_0056:
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(69)
 	{
-		IL2CPP_JUMP_TBL(0x57, IL_0057)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x57, IL_0057)
 	}
 
 IL_0057:
@@ -15702,14 +15702,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m5D84793
 {
 	{
 		int32_t L_0 = (int32_t)__this->get__size_2();
-		return L_0;
+		return (int32_t)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = (RuntimeObject *)__this->get_current_3();
-		return L_0;
+		return (RuntimeObject *)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mF00B574E58FB078BB753B05A3B86DD0A7A266B63_gshared_inline (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, int32_t ___index0, const RuntimeMethod* method)
@@ -15731,6 +15731,6 @@ IL_000e:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_2 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)__this->get__items_1();
 		int32_t L_3 = ___index0;
 		RuntimeObject * L_4 = IL2CPP_ARRAY_UNSAFE_LOAD((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)L_2, (int32_t)L_3);
-		return L_4;
+		return (RuntimeObject *)L_4;
 	}
 }
