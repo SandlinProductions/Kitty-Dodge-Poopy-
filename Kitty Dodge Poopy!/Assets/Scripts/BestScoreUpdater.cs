@@ -23,7 +23,7 @@ public class BestScoreUpdater : MonoBehaviour {
     void Update()
     {
 
-        text.text = "Best: " + PowerUpCounter.highscore.ToString();
+        text.text = PowerUpCounter.highscore.ToString();
 
 
     }

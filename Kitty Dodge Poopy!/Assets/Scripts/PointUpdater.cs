@@ -24,7 +24,7 @@ public class PointUpdater : MonoBehaviour {
     void Update()
     {
 
-        text.text = "Score: " + powerUpConter.score.ToString();
+        text.text = powerUpConter.score.ToString();
 
 
     }
