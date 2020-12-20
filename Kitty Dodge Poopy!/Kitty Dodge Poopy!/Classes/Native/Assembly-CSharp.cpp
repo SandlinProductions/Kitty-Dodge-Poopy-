@@ -256,7 +256,6 @@ IL2CPP_EXTERN_C const uint32_t PointCounter_OnTriggerEnter2D_m1E1F1C7C9F7A17ABDB
 IL2CPP_EXTERN_C const uint32_t PointCounter_Start_mDB2B91B3C433ECFC69CCA14465A37DD8A9A5CAD0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PointCounter_Update_mBC7C0EE2F8A3FA0305D5C15C8629B79BFD4679FB_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PointUpdater_Start_mA6F9BD2720EF3CFF85C73AD5D11CC915769ADB29_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t PointUpdater_Update_mE575F6F89F1F9F9F9FFF6883957721EBC2CAE98A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PowerUpController_OnTriggerEnter2D_m8DDBC9A1E7935254B78B97427F69FE402F6D5F44_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PowerUpCounter_OnTriggerEnter2D_m6693993C776BC74199BB8BC7A463EEC5040BE4AE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PowerUpCounter_Start_mEDBA4676C9AB8E23DBEC86DD796E14181D7D6900_MetadataUsageId;
@@ -2780,8 +2779,6 @@ inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * GameObject_GetComponent_
 }
 // System.String System.Single::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010 (float* __this, const RuntimeMethod* method);
-// System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
@@ -2867,6 +2864,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_set_targetFrameRate_m0F44C8D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mAAAA103F4911E9FA18634BF9605C28559F5E2AC7 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___obj0, float ___t1, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::SetTrigger(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetTrigger_m2D79D155CABD81B1CC75EFC35D90508B58D7211C (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, String_t* ___name0, const RuntimeMethod* method);
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
 // UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* GameObject_FindGameObjectsWithTag_m0948320611DC82590D59A36D1C57155B1B6CE186 (String_t* ___tag0, const RuntimeMethod* method);
 // System.Void UIManager::hidePaused()
@@ -2953,12 +2952,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestScoreUpdater_Update_mC5B414C6F78320E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// text.text = "Best: " + PowerUpCounter.highscore.ToString();
+		// text.text = PowerUpCounter.highscore.ToString();
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_0 = __this->get_text_4();
 		String_t* L_1 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)(((PowerUpCounter_tB7E7FF608E575858CA920AB84A4E5FF1F5A4B9D6_StaticFields*)il2cpp_codegen_static_fields_for(PowerUpCounter_tB7E7FF608E575858CA920AB84A4E5FF1F5A4B9D6_il2cpp_TypeInfo_var))->get_address_of_highscore_5()), /*hidden argument*/NULL);
-		String_t* L_2 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral2D19E5CB306F3803D48A0FC826D6E68FCADD27C2, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
 		// }
 		return;
 	}
@@ -3720,22 +3718,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointUpdater_Start_mA6F9BD2720EF3CFF85C7
 // System.Void PointUpdater::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointUpdater_Update_mE575F6F89F1F9F9F9FFF6883957721EBC2CAE98A (PointUpdater_t2914808E55B8B4B1F39B9700E44329D45F3FB4EE * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (PointUpdater_Update_mE575F6F89F1F9F9F9FFF6883957721EBC2CAE98A_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// text.text = "Score: " + powerUpConter.score.ToString();
+		// text.text = powerUpConter.score.ToString();
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_0 = __this->get_text_4();
 		PowerUpCounter_tB7E7FF608E575858CA920AB84A4E5FF1F5A4B9D6 * L_1 = __this->get_powerUpConter_5();
 		NullCheck(L_1);
 		int32_t* L_2 = L_1->get_address_of_score_4();
 		String_t* L_3 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)L_2, /*hidden argument*/NULL);
-		String_t* L_4 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral1B00FE8D93C8DA57AEA59DB0FE808A827C3503B6, L_3, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_4);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_3);
 		// }
 		return;
 	}
