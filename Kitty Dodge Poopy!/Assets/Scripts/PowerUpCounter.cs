@@ -65,13 +65,13 @@ public class PowerUpCounter : MonoBehaviour {
         {
             if (doublePoints == true)
             {
-                score += 6;
+                score += 10;
                 //increments score by 2
-                Debug.Log("6 Points (Double Time!)");
+                Debug.Log("10 Points (Double Time!)");
             }
             else
             {
-                score += 3;
+                score += 5;
                 //increments score by 3
                 Debug.Log("3 Points!");
             }
