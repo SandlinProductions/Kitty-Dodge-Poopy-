@@ -119,5 +119,9 @@ public class UIManager : MonoBehaviour {
         Social.ShowLeaderboardUI();
         Debug.Log("Show Leaderboard");
     }
+    public void OpenLink(string url)
+    {
+        Application.OpenURL(url);
+    }
 
 }
