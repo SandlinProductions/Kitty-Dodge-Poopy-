@@ -15,5 +15,9 @@ public class BackgroundMusic : MonoBehaviour
     {
         musicMaster.mute = !musicMaster.mute;
     }
+    public void AdjustVolume(float vol)
+    {
+        musicMaster.volume = vol;
+    }
 
 }
