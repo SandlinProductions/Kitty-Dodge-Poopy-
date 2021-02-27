@@ -123,5 +123,4 @@ public class UIManager : MonoBehaviour {
     {
         Application.OpenURL(url);
     }
-
 }

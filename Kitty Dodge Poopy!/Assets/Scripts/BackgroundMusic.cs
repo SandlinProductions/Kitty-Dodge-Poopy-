@@ -10,6 +10,17 @@ public class BackgroundMusic : MonoBehaviour
     void Start()
     {
         musicMaster = GetComponent<AudioSource>();
+
+        if(PlayerPrefs.GetInt("isMuted")==1)
+        {
+            musicMaster.GetComponent<AudioSource>().mute = false;
+            Debug.Log("Saved as 1 Not Muted");
+        }
+        if (PlayerPrefs.GetInt("isMuted") == 0)
+        {
+            musicMaster.GetComponent<AudioSource>().mute = true;
+            Debug.Log("Saved as 0 Muted");
+        }
     }
     public void AdjuctMute(bool mute)
     {
@@ -18,6 +29,21 @@ public class BackgroundMusic : MonoBehaviour
     public void AdjustVolume(float vol)
     {
         musicMaster.volume = vol;
+    }
+    private void Update()
+    {
+        if (GetComponent<AudioSource>().mute == true)
+        {
+            PlayerPrefs.SetInt("isMuted", 0);
+            PlayerPrefs.Save();
+            Debug.Log("0 Muted");
+        }
+        else if (GetComponent<AudioSource>().mute == false)
+        {
+            PlayerPrefs.SetInt("isMuted", 1);
+            PlayerPrefs.Save();
+            Debug.Log("1 Not Muted");
+        }
     }
 
 }
