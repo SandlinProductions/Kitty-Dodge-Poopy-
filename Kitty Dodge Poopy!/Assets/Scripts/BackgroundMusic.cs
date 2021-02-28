@@ -10,7 +10,6 @@ public class BackgroundMusic : MonoBehaviour
     void Start()
     {
         musicMaster = GetComponent<AudioSource>();
-
         if (PlayerPrefs.GetInt("isMuted") == 1)
         {
             musicMaster.GetComponent<AudioSource>().mute = false;
