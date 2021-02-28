@@ -11,7 +11,7 @@ public class BackgroundMusic : MonoBehaviour
     {
         musicMaster = GetComponent<AudioSource>();
 
-        if(PlayerPrefs.GetInt("isMuted")==1)
+        if (PlayerPrefs.GetInt("isMuted") == 1)
         {
             musicMaster.GetComponent<AudioSource>().mute = false;
             Debug.Log("Saved as 1 Not Muted");
@@ -32,18 +32,33 @@ public class BackgroundMusic : MonoBehaviour
     }
     private void Update()
     {
-        if (GetComponent<AudioSource>().mute == true)
+        //if (musicMaster.GetComponent<AudioSource>().mute == true)
+        //{
+        //    PlayerPrefs.SetInt("isMuted", 0);
+        //    PlayerPrefs.Save();
+        //    Debug.Log("0 Muted");
+        //}
+        //else if (musicMaster.GetComponent<AudioSource>().mute == false)
+        //{
+        //    PlayerPrefs.SetInt("isMuted", 1);
+        //    PlayerPrefs.Save();
+        //    Debug.Log("1 Not Muted");
+        //}
+    }
+    public void SetMute()
+    {
+        if (musicMaster.GetComponent<AudioSource>().mute == true)
         {
             PlayerPrefs.SetInt("isMuted", 0);
             PlayerPrefs.Save();
             Debug.Log("0 Muted");
         }
-        else if (GetComponent<AudioSource>().mute == false)
+        else if (musicMaster.GetComponent<AudioSource>().mute == false)
         {
             PlayerPrefs.SetInt("isMuted", 1);
             PlayerPrefs.Save();
             Debug.Log("1 Not Muted");
         }
-    }
 
+    }
 }
