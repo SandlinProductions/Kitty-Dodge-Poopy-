@@ -6,15 +6,8 @@
 #endif
 
 
-
 #include "codegen/il2cpp-codegen-metadata.h"
 
-
-
-
-
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
 
 
 
@@ -31,9 +24,9 @@ extern void XmlReader_get_Name_m7F0E945CC30317A943A3935082F1D116C871EF8E (void);
 extern void XmlReader_get_debuggerDisplayProxy_m590E322FCD74EDA60B59A022CE84848DA9A33CC3 (void);
 // 0x00000009 System.Void System.Xml.XmlReader::.cctor()
 extern void XmlReader__cctor_m8C939FA4F60E046BCAEDF0969A6E3B89D9CB0A4E (void);
-// 0x0000000A System.Void System.Xml.XmlReader_XmlReaderDebuggerDisplayProxy::.ctor(System.Xml.XmlReader)
+// 0x0000000A System.Void System.Xml.XmlReader/XmlReaderDebuggerDisplayProxy::.ctor(System.Xml.XmlReader)
 extern void XmlReaderDebuggerDisplayProxy__ctor_m784E61728FD15306C180AE7EA023511D8704FB0A_AdjustorThunk (void);
-// 0x0000000B System.String System.Xml.XmlReader_XmlReaderDebuggerDisplayProxy::ToString()
+// 0x0000000B System.String System.Xml.XmlReader/XmlReaderDebuggerDisplayProxy::ToString()
 extern void XmlReaderDebuggerDisplayProxy_ToString_m8138337CC447054936F29D1E5ED79BFFD11C0101_AdjustorThunk (void);
 // 0x0000000C System.String System.Xml.XmlDocumentType::get_Name()
 extern void XmlDocumentType_get_Name_m33C2B5BA85E672825363A0418AB829554D879D57 (void);
@@ -105,39 +98,40 @@ static Il2CppMethodPointer s_methodPointers[30] =
 };
 static const int32_t s_InvokerIndices[30] = 
 {
-	10,
-	14,
-	14,
-	14,
-	14,
-	28,
-	14,
-	14,
-	3,
-	26,
-	14,
-	14,
-	10,
-	14,
-	14,
-	14,
-	14,
-	14,
-	10,
-	14,
-	26,
-	14,
-	4,
-	3,
-	552,
-	26,
-	915,
-	0,
-	3,
-	28,
+	2194,
+	2209,
+	2209,
+	2209,
+	2209,
+	1435,
+	2209,
+	2209,
+	3637,
+	1872,
+	2209,
+	2209,
+	2194,
+	2209,
+	2209,
+	2209,
+	2209,
+	2209,
+	2194,
+	2209,
+	1872,
+	2209,
+	3611,
+	3637,
+	3328,
+	1872,
+	3638,
+	3495,
+	3637,
+	1435,
 };
-extern const Il2CppCodeGenModule g_System_XmlCodeGenModule;
-const Il2CppCodeGenModule g_System_XmlCodeGenModule = 
+extern const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Xml_CodeGenModule;
+const Il2CppCodeGenModule g_System_Xml_CodeGenModule = 
 {
 	"System.Xml.dll",
 	30,
@@ -148,6 +142,11 @@ const Il2CppCodeGenModule g_System_XmlCodeGenModule =
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	g_System_Xml_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
 	NULL,
 	NULL,
 };

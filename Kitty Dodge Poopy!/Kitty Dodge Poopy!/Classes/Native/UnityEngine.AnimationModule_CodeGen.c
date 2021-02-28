@@ -6,15 +6,8 @@
 #endif
 
 
-
 #include "codegen/il2cpp-codegen-metadata.h"
 
-
-
-
-
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
 
 
 
@@ -63,13 +56,13 @@ extern void Animator_SetTriggerString_m38F66A49276BCED56B89BB6AF8A36183BE4285F0 
 extern void Animator_ResetTriggerString_m6FC21A6B7732A31338EE22E78F3D6220903EDBB2 (void);
 // 0x00000016 System.Void UnityEngine.AnimatorOverrideController::OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController)
 extern void AnimatorOverrideController_OnInvalidateOverrideController_m579571520B7C607B6983D4973EBAE982EAC9AA40 (void);
-// 0x00000017 System.Void UnityEngine.AnimatorOverrideController_OnOverrideControllerDirtyCallback::.ctor(System.Object,System.IntPtr)
+// 0x00000017 System.Void UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback::.ctor(System.Object,System.IntPtr)
 extern void OnOverrideControllerDirtyCallback__ctor_mA35F55BEB8A4BD57D109684E857F85C1F0A6C1B5 (void);
-// 0x00000018 System.Void UnityEngine.AnimatorOverrideController_OnOverrideControllerDirtyCallback::Invoke()
+// 0x00000018 System.Void UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback::Invoke()
 extern void OnOverrideControllerDirtyCallback_Invoke_m21DB79300E852ED93F2521FFC03EC4D858F6B330 (void);
-// 0x00000019 System.IAsyncResult UnityEngine.AnimatorOverrideController_OnOverrideControllerDirtyCallback::BeginInvoke(System.AsyncCallback,System.Object)
+// 0x00000019 System.IAsyncResult UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback::BeginInvoke(System.AsyncCallback,System.Object)
 extern void OnOverrideControllerDirtyCallback_BeginInvoke_m40D5810BF8C5066DB2C7987E7C76FD23D2AC47E3 (void);
-// 0x0000001A System.Void UnityEngine.AnimatorOverrideController_OnOverrideControllerDirtyCallback::EndInvoke(System.IAsyncResult)
+// 0x0000001A System.Void UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback::EndInvoke(System.IAsyncResult)
 extern void OnOverrideControllerDirtyCallback_EndInvoke_mAF3C7805FADE63999DC2121032B11DF86668E9F4 (void);
 // 0x0000001B System.Void UnityEngine.Animations.NotKeyableAttribute::.ctor()
 extern void NotKeyableAttribute__ctor_m98269306D3337B28D7E5E55C84B2F6304EBFE507 (void);
@@ -210,71 +203,72 @@ static Il2CppMethodPointer s_methodPointers[62] =
 };
 static const int32_t s_InvokerIndices[62] = 
 {
-	1471,
-	1471,
-	1471,
-	1471,
-	1471,
-	128,
-	128,
-	1472,
-	1472,
-	1472,
-	1472,
-	1472,
-	1473,
-	1473,
-	23,
-	23,
-	26,
-	26,
-	102,
-	26,
-	26,
-	111,
-	165,
-	23,
-	101,
-	26,
-	23,
-	1360,
-	1474,
-	1359,
-	1360,
-	1475,
-	3,
-	1359,
-	1360,
-	1476,
-	3,
-	1359,
-	1360,
-	1477,
-	3,
-	1359,
-	1360,
-	1478,
-	3,
-	1359,
-	1360,
-	1479,
-	3,
-	1359,
-	1360,
-	1480,
-	3,
-	1359,
-	1360,
-	1481,
-	3,
-	1359,
-	1360,
-	1359,
-	1482,
-	3,
+	679,
+	679,
+	679,
+	679,
+	679,
+	1107,
+	1107,
+	445,
+	445,
+	445,
+	445,
+	445,
+	685,
+	685,
+	2272,
+	2272,
+	1872,
+	1872,
+	2238,
+	1872,
+	1872,
+	3572,
+	1109,
+	2272,
+	826,
+	1872,
+	2272,
+	2213,
+	1539,
+	1878,
+	2213,
+	1540,
+	3637,
+	1878,
+	2213,
+	1541,
+	3637,
+	1878,
+	2213,
+	1542,
+	3637,
+	1878,
+	2213,
+	1543,
+	3637,
+	1878,
+	2213,
+	1544,
+	3637,
+	1878,
+	2213,
+	1545,
+	3637,
+	1878,
+	2213,
+	1546,
+	3637,
+	1878,
+	2213,
+	1878,
+	1547,
+	3637,
 };
-extern const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule;
-const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule = 
+extern const CustomAttributesCacheGenerator g_UnityEngine_AnimationModule_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AnimationModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_AnimationModule_CodeGenModule = 
 {
 	"UnityEngine.AnimationModule.dll",
 	62,
@@ -285,6 +279,11 @@ const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule =
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	g_UnityEngine_AnimationModule_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
 	NULL,
 	NULL,
 };

@@ -3,30 +3,6 @@
     "typesInScenes": [
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioBehaviour",
-            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioListener",
-            "fullManagedTypeName": "UnityEngine.AudioListener",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Behaviour",
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
@@ -34,7 +10,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -60,7 +38,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -72,7 +52,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -84,7 +66,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -124,30 +108,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Transform",
-            "fullManagedTypeName": "UnityEngine.Transform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Texture",
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
@@ -155,7 +115,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -167,19 +129,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "GameObject",
-            "fullManagedTypeName": "UnityEngine.GameObject",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -191,7 +143,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -210,14 +164,14 @@
         },
         {
             "managedAssemblyName": "",
-            "nativeClass": "ResourceManager",
+            "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
-            "nativeClass": "RuntimeInitializeOnLoadManager",
+            "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": []
@@ -231,7 +185,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -257,7 +213,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -276,7 +234,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -288,7 +248,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -300,7 +262,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -326,7 +290,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -345,7 +311,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -385,7 +353,37 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioBehaviour",
+            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioListener",
+            "fullManagedTypeName": "UnityEngine.AudioListener",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -397,29 +395,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Animator",
-            "fullManagedTypeName": "UnityEngine.Animator",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RuntimeAnimatorController",
-            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -430,7 +408,22 @@
             "usedInScenes": [
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity"
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity"
             ]
         },
         {
@@ -441,7 +434,22 @@
             "usedInScenes": [
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity"
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity"
             ]
         },
         {
@@ -453,7 +461,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -465,7 +475,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -477,7 +489,51 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Transform",
+            "fullManagedTypeName": "UnityEngine.Transform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "GameObject",
+            "fullManagedTypeName": "UnityEngine.GameObject",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -489,102 +545,9 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "NavMeshSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "AI",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RectTransform",
-            "fullManagedTypeName": "UnityEngine.RectTransform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Motion",
-            "fullManagedTypeName": "UnityEngine.Motion",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CanvasRenderer",
-            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
-            "moduleName": "UI",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "LevelGameManager",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightmapSettings",
-            "fullManagedTypeName": "UnityEngine.LightmapSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightingSettings",
-            "fullManagedTypeName": "UnityEngine.LightingSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scene/StartMenu.unity",
-                "Assets/Scene/MainMenu.unity",
-                "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -596,16 +559,120 @@
                 "Assets/Scene/StartMenu.unity",
                 "Assets/Scene/MainMenu.unity",
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NavMeshSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "FlareLayer",
-            "fullManagedTypeName": "UnityEngine.FlareLayer",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scene/MainMenu.unity"
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "LevelGameManager",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightmapSettings",
+            "fullManagedTypeName": "UnityEngine.LightmapSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightingSettings",
+            "fullManagedTypeName": "UnityEngine.LightingSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/StartMenu.unity",
+                "Assets/Scene/MainMenu.unity",
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Options.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -615,7 +682,8 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -625,7 +693,8 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -640,12 +709,43 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemRenderer",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystem",
+            "fullManagedTypeName": "UnityEngine.ParticleSystem",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scene/HowToPlay.unity",
+                "Assets/Scene/MainLevel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Collider2D",
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scene/HowToPlay.unity",
-                "Assets/Scene/MainLevel.unity"
+                "Assets/Scene/MainLevel.unity",
+                "Assets/Scene/Credits.unity"
             ]
         },
         {
@@ -660,7 +760,21 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "BackgroundMusic",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "BestScoreUpdater",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CFX_AutoDestructShuriken",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -689,6 +803,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Leaderboards",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MusicGrabber",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -730,14 +851,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "TargetFrameRate",
+            "fullManagedTypeName": "SetMute",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "TimeDestory",
+            "fullManagedTypeName": "SliderGrabber",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -870,6 +991,13 @@
         {
             "managedAssemblyName": "Unity.RenderPipelines.Core.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.UI.DebugUIHandlerRow",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Core.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.UI.DebugUIHandlerToggle",
             "moduleName": "",
             "usedInScenes": []
@@ -955,6 +1083,48 @@
             "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.Universal.XRSystemData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_ColorGradient",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1052,6 +1222,13 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Slider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Text",
             "moduleName": "",
             "usedInScenes": []
@@ -1081,12 +1258,6 @@
         {
             "name": "AnnotationManager",
             "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "AssetDatabaseV1",
-            "module": "AssetDatabase",
             "baseName": "Object",
             "baseModule": "Core"
         },
@@ -1853,12 +2024,6 @@
             "baseModule": "Core"
         },
         {
-            "name": "WorldAnchor",
-            "module": "VR",
-            "baseName": "Component",
-            "baseModule": "Core"
-        },
-        {
             "name": "GameObject",
             "module": "Core",
             "baseName": "EditorExtension",
@@ -1944,7 +2109,7 @@
         },
         {
             "name": "ComputeShaderImporter",
-            "module": "Core",
+            "module": "Editor",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -2016,7 +2181,7 @@
         },
         {
             "name": "PackageManifestImporter",
-            "module": "Editor",
+            "module": "PackageManagerUI",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -2033,6 +2198,12 @@
             "baseModule": "Editor"
         },
         {
+            "name": "PreviewImporter",
+            "module": "Editor",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
             "name": "RayTracingShaderImporter",
             "module": "Core",
             "baseName": "AssetImporter",
@@ -2041,6 +2212,12 @@
         {
             "name": "ReferencesArtifactGenerator",
             "module": "Editor",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
+            "name": "RuleSetFileImporter",
+            "module": "Core",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -2484,7 +2661,13 @@
         },
         {
             "name": "PackageManifest",
-            "module": "Editor",
+            "module": "PackageManagerUI",
+            "baseName": "TextAsset",
+            "baseModule": "Core"
+        },
+        {
+            "name": "RuleSetFileAsset",
+            "module": "Core",
             "baseName": "TextAsset",
             "baseModule": "Core"
         },

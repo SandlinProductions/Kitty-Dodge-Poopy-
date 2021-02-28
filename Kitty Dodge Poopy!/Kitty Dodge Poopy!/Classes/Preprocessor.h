@@ -136,7 +136,7 @@
 // The following UNITY_USES_* flags disable functionality in the trampoline project whenever the user does not use it from his scripts.
 // We detect the API usage and adjust the value of these flags whenever the project is built (including "append")
 
-#define UNITY_USES_REMOTE_NOTIFICATIONS 1
+#define UNITY_USES_REMOTE_NOTIFICATIONS 0
 #define UNITY_USES_WEBCAM 0
 #define UNITY_USES_MICROPHONE 0
 #define UNITY_USES_REPLAY_KIT 0

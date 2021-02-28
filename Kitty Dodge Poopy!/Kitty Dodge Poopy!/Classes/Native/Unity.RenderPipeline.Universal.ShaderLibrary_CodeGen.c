@@ -6,21 +6,15 @@
 #endif
 
 
-
 #include "codegen/il2cpp-codegen-metadata.h"
 
 
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
-extern const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibraryCodeGenModule;
-const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibraryCodeGenModule = 
+extern const CustomAttributesCacheGenerator g_Unity_RenderPipeline_Universal_ShaderLibrary_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGenModule = 
 {
 	"Unity.RenderPipeline.Universal.ShaderLibrary.dll",
 	0,
@@ -31,6 +25,11 @@ const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibraryCodeGenM
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	g_Unity_RenderPipeline_Universal_ShaderLibrary_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
 	NULL,
 	NULL,
 };

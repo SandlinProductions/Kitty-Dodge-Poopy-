@@ -6,15 +6,8 @@
 #endif
 
 
-
 #include "codegen/il2cpp-codegen-metadata.h"
 
-
-
-
-
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
 
 
 
@@ -78,27 +71,28 @@ static Il2CppMethodPointer s_methodPointers[18] =
 };
 static const int32_t s_InvokerIndices[18] = 
 {
-	26,
-	102,
-	23,
-	450,
-	14,
-	102,
-	26,
-	23,
-	10,
-	26,
-	23,
-	14,
-	26,
-	102,
-	26,
-	23,
-	450,
-	3,
+	1872,
+	2238,
+	2272,
+	557,
+	2209,
+	2238,
+	1872,
+	2272,
+	2194,
+	1872,
+	2272,
+	2209,
+	1872,
+	2238,
+	1872,
+	2272,
+	557,
+	3637,
 };
-extern const Il2CppCodeGenModule g_System_ConfigurationCodeGenModule;
-const Il2CppCodeGenModule g_System_ConfigurationCodeGenModule = 
+extern const CustomAttributesCacheGenerator g_System_Configuration_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
+const Il2CppCodeGenModule g_System_Configuration_CodeGenModule = 
 {
 	"System.Configuration.dll",
 	18,
@@ -109,6 +103,11 @@ const Il2CppCodeGenModule g_System_ConfigurationCodeGenModule =
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	g_System_Configuration_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
 	NULL,
 	NULL,
 };
