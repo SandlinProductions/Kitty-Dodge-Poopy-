@@ -10,9 +10,8 @@ public class UIManager : MonoBehaviour {
     GameObject[] finishObjects;
     PlayerController playerController;
 
-    // Use this for initialization
-    void Start ()
-    {
+	// Use this for initialization
+	void Start () {
         Time.timeScale = 1;
         //gets all objects with tag ShowOnPause
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
@@ -22,8 +21,12 @@ public class UIManager : MonoBehaviour {
         hideFinished();
 
         //Checks to make sure Mainlevel is the loaded level
-        if (SceneManager.GetActiveScene().name == "MainLevel")
+        if (SceneManager.GetActiveScene().name == "MainLevelHalloween")
             playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+		//Checks to make sure 2xPoints is the loaded level
+		if (SceneManager.GetActiveScene ().name == "2xPointsHalloween")
+			playerController = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
+
 	}
 
     //Updat is called once per frame
@@ -118,10 +121,6 @@ public class UIManager : MonoBehaviour {
 
         Social.ShowLeaderboardUI();
         Debug.Log("Show Leaderboard");
-    }
-    public void OpenLink(string url)
-    {
-        Application.OpenURL(url);
     }
 
 }

@@ -64,45 +64,39 @@ extern void PCMSetPositionCallback_BeginInvoke_mF8CA8E07FDAF6B0821D2F1AE8F8545DC
 extern void PCMSetPositionCallback_EndInvoke_m7096B994374E95A90C84B87625494BE1076B8574 (void);
 // 0x0000001A System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
 extern void AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814 (void);
-// 0x0000001B System.Single UnityEngine.AudioSource::get_volume()
-extern void AudioSource_get_volume_mFD700932958E0A96199B012E28AE4E9F7D6C1556 (void);
-// 0x0000001C System.Void UnityEngine.AudioSource::set_volume(System.Single)
+// 0x0000001B System.Void UnityEngine.AudioSource::set_volume(System.Single)
 extern void AudioSource_set_volume_m37B6B2EACA7C2C18ABEE55EE5EA404085E94EE58 (void);
-// 0x0000001D System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
+// 0x0000001C System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
 extern void AudioSource_set_clip_mD1F50F7BA6EA3AF25B4922473352C5180CFF7B2B (void);
-// 0x0000001E System.Void UnityEngine.AudioSource::Play()
+// 0x0000001D System.Void UnityEngine.AudioSource::Play()
 extern void AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1 (void);
-// 0x0000001F System.Void UnityEngine.AudioSource::PlayClipAtPoint(UnityEngine.AudioClip,UnityEngine.Vector3)
+// 0x0000001E System.Void UnityEngine.AudioSource::PlayClipAtPoint(UnityEngine.AudioClip,UnityEngine.Vector3)
 extern void AudioSource_PlayClipAtPoint_m9E225CC4435215CDF7E8DECCD3D1CEFCCB82AC79 (void);
-// 0x00000020 System.Void UnityEngine.AudioSource::PlayClipAtPoint(UnityEngine.AudioClip,UnityEngine.Vector3,System.Single)
+// 0x0000001F System.Void UnityEngine.AudioSource::PlayClipAtPoint(UnityEngine.AudioClip,UnityEngine.Vector3,System.Single)
 extern void AudioSource_PlayClipAtPoint_m1DB4B29B9FBCF0832AB7855AD2B2B319322B61FC (void);
-// 0x00000021 System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
+// 0x00000020 System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
 extern void AudioSource_set_spatialBlend_m7DD3DA6F68BA6710EDB2EE8482F876D16F9A9BEC (void);
-// 0x00000022 System.Boolean UnityEngine.AudioSource::get_mute()
-extern void AudioSource_get_mute_m87FF3468F096AE68C817B885D9AAC246CA4F1AFE (void);
-// 0x00000023 System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
-extern void AudioSource_set_mute_m69E2DFCF261D2D187ED756096B7E0DE622292C71 (void);
-// 0x00000024 UnityEngine.Playables.PlayableHandle UnityEngine.Audio.AudioClipPlayable::GetHandle()
+// 0x00000021 UnityEngine.Playables.PlayableHandle UnityEngine.Audio.AudioClipPlayable::GetHandle()
 extern void AudioClipPlayable_GetHandle_mBEB846B088961170B6DB961951B511C11B98E0B8_AdjustorThunk (void);
-// 0x00000025 System.Boolean UnityEngine.Audio.AudioClipPlayable::Equals(UnityEngine.Audio.AudioClipPlayable)
+// 0x00000022 System.Boolean UnityEngine.Audio.AudioClipPlayable::Equals(UnityEngine.Audio.AudioClipPlayable)
 extern void AudioClipPlayable_Equals_m52ECDD49AE6BD8AB4C0AC83C417A0C1B23E3E55E_AdjustorThunk (void);
-// 0x00000026 UnityEngine.Playables.PlayableHandle UnityEngine.Audio.AudioMixerPlayable::GetHandle()
+// 0x00000023 UnityEngine.Playables.PlayableHandle UnityEngine.Audio.AudioMixerPlayable::GetHandle()
 extern void AudioMixerPlayable_GetHandle_m76EFC486A7639C4842F590F544B60988CF27BB17_AdjustorThunk (void);
-// 0x00000027 System.Boolean UnityEngine.Audio.AudioMixerPlayable::Equals(UnityEngine.Audio.AudioMixerPlayable)
+// 0x00000024 System.Boolean UnityEngine.Audio.AudioMixerPlayable::Equals(UnityEngine.Audio.AudioMixerPlayable)
 extern void AudioMixerPlayable_Equals_mB55D2602ACCD196F61AF3D1AE90B81930A9AB7E8_AdjustorThunk (void);
-// 0x00000028 System.Void UnityEngine.Experimental.Audio.AudioSampleProvider::InvokeSampleFramesAvailable(System.Int32)
+// 0x00000025 System.Void UnityEngine.Experimental.Audio.AudioSampleProvider::InvokeSampleFramesAvailable(System.Int32)
 extern void AudioSampleProvider_InvokeSampleFramesAvailable_mE6689CFA13C0621F305F389FEEE4D543B71BF236 (void);
-// 0x00000029 System.Void UnityEngine.Experimental.Audio.AudioSampleProvider::InvokeSampleFramesOverflow(System.Int32)
+// 0x00000026 System.Void UnityEngine.Experimental.Audio.AudioSampleProvider::InvokeSampleFramesOverflow(System.Int32)
 extern void AudioSampleProvider_InvokeSampleFramesOverflow_m998BEADD2A2B4BEF0906A31108B6DC486411CC78 (void);
-// 0x0000002A System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::.ctor(System.Object,System.IntPtr)
+// 0x00000027 System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::.ctor(System.Object,System.IntPtr)
 extern void SampleFramesHandler__ctor_m389B32B949592BFD1BA53D0C0983CA6B5BA6AAC7 (void);
-// 0x0000002B System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32)
+// 0x00000028 System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32)
 extern void SampleFramesHandler_Invoke_mCB6172CE3EF20C5E12A697A5CE5EEDED9A3B5779 (void);
-// 0x0000002C System.IAsyncResult UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32,System.AsyncCallback,System.Object)
+// 0x00000029 System.IAsyncResult UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32,System.AsyncCallback,System.Object)
 extern void SampleFramesHandler_BeginInvoke_m79D52B9AB6F6E72A9A9260F6608F7FA9F6A10ADC (void);
-// 0x0000002D System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::EndInvoke(System.IAsyncResult)
+// 0x0000002A System.Void UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler::EndInvoke(System.IAsyncResult)
 extern void SampleFramesHandler_EndInvoke_mC5357233A55B232AC8507FA4A04E06271EDE0309 (void);
-static Il2CppMethodPointer s_methodPointers[45] = 
+static Il2CppMethodPointer s_methodPointers[42] = 
 {
 	AudioSettings_InvokeOnAudioConfigurationChanged_m2CBD1FC39E7AE46E07E777990310D1DC40FB980E,
 	AudioSettings_StartAudioOutput_m372FC1B86734F04E2AAE161E2A70F3E5E8FCE583,
@@ -130,15 +124,12 @@ static Il2CppMethodPointer s_methodPointers[45] =
 	PCMSetPositionCallback_BeginInvoke_mF8CA8E07FDAF6B0821D2F1AE8F8545DC0FADC3A3,
 	PCMSetPositionCallback_EndInvoke_m7096B994374E95A90C84B87625494BE1076B8574,
 	AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814,
-	AudioSource_get_volume_mFD700932958E0A96199B012E28AE4E9F7D6C1556,
 	AudioSource_set_volume_m37B6B2EACA7C2C18ABEE55EE5EA404085E94EE58,
 	AudioSource_set_clip_mD1F50F7BA6EA3AF25B4922473352C5180CFF7B2B,
 	AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1,
 	AudioSource_PlayClipAtPoint_m9E225CC4435215CDF7E8DECCD3D1CEFCCB82AC79,
 	AudioSource_PlayClipAtPoint_m1DB4B29B9FBCF0832AB7855AD2B2B319322B61FC,
 	AudioSource_set_spatialBlend_m7DD3DA6F68BA6710EDB2EE8482F876D16F9A9BEC,
-	AudioSource_get_mute_m87FF3468F096AE68C817B885D9AAC246CA4F1AFE,
-	AudioSource_set_mute_m69E2DFCF261D2D187ED756096B7E0DE622292C71,
 	AudioClipPlayable_GetHandle_mBEB846B088961170B6DB961951B511C11B98E0B8_AdjustorThunk,
 	AudioClipPlayable_Equals_m52ECDD49AE6BD8AB4C0AC83C417A0C1B23E3E55E_AdjustorThunk,
 	AudioMixerPlayable_GetHandle_m76EFC486A7639C4842F590F544B60988CF27BB17_AdjustorThunk,
@@ -150,60 +141,57 @@ static Il2CppMethodPointer s_methodPointers[45] =
 	SampleFramesHandler_BeginInvoke_m79D52B9AB6F6E72A9A9260F6608F7FA9F6A10ADC,
 	SampleFramesHandler_EndInvoke_mC5357233A55B232AC8507FA4A04E06271EDE0309,
 };
-static const int32_t s_InvokerIndices[45] = 
+static const int32_t s_InvokerIndices[42] = 
 {
-	3574,
-	3623,
-	3623,
-	1109,
-	1899,
-	569,
-	1872,
-	3623,
-	3574,
-	3623,
-	3574,
-	3637,
-	3637,
-	3637,
-	2245,
-	1872,
-	1858,
-	1109,
-	1872,
-	558,
-	1872,
-	1109,
-	1858,
-	547,
-	1872,
-	3323,
-	2245,
-	1906,
-	1872,
-	2272,
-	3330,
-	3026,
-	1906,
-	2238,
-	1899,
-	2213,
-	1548,
-	2213,
-	1549,
-	1858,
-	1858,
-	1109,
-	1107,
-	330,
-	1872,
+	1892,
+	1920,
+	1920,
+	648,
+	1004,
+	341,
+	987,
+	1920,
+	1892,
+	1920,
+	1892,
+	1927,
+	1927,
+	1927,
+	1142,
+	987,
+	978,
+	648,
+	987,
+	332,
+	987,
+	648,
+	978,
+	323,
+	987,
+	1743,
+	1006,
+	987,
+	1152,
+	1749,
+	1570,
+	1006,
+	1124,
+	841,
+	1124,
+	842,
+	978,
+	978,
+	648,
+	646,
+	196,
+	987,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_AudioModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule = 
 {
 	"UnityEngine.AudioModule.dll",
-	45,
+	42,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

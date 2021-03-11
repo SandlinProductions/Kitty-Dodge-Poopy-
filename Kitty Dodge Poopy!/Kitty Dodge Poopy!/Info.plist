@@ -21,11 +21,16 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1</string>
+    <string>1.1.5</string>
     <key>CFBundleVersion</key>
-    <string>7</string>
+    <string>5</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true />
+    </dict>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipad</key>
@@ -57,23 +62,9 @@
     </array>
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
-    <key>UnityAddRemoteNotificationCapability</key>
-    <false />
     <key>UnityCloudProjectID</key>
-    <string></string>
+    <string />
     <key>UnityCrashSubmissionURL</key>
-    <string></string>
-    <key>UnityNotificationDefaultAuthorizationOptions</key>
-    <integer>7</integer>
-    <key>UnityNotificationRequestAuthorizationForRemoteNotificationsOnAppLaunch</key>
-    <false />
-    <key>UnityNotificationRequestAuthorizationOnAppLaunch</key>
-    <true />
-    <key>UnityRemoteNotificationForegroundPresentationOptions</key>
-    <integer>-1</integer>
-    <key>UnityUseAPSReleaseEnvironment</key>
-    <false />
-    <key>UnityUseLocationNotificationTrigger</key>
-    <false />
+    <string />
   </dict>
 </plist>

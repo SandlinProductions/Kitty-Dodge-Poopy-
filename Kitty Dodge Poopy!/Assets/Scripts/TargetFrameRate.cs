@@ -5,7 +5,7 @@ using UnityEngine;
 public class TargetFrameRate : MonoBehaviour {
     public void Awake()
     {
-        Application.targetFrameRate = 2000;
+        Application.targetFrameRate = 60;
 
     }
 }
